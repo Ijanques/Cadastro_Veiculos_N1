@@ -50,8 +50,18 @@ namespace Cadastro_Venda_Veiculos
             {
                 endpoints.MapControllerRoute(
                     name: "default",
-                    pattern: "{controller=Home}/{action=Index}/{id?}");
+                    pattern: "{controller=Vendedor}/{action=Index}/{id?}");
             });
+
+            //NOTA: Na apostila do Rosalém é pedido para alterar o método "app.UseMvc", mas não existe nesse arquivo.
+            //Método alterado: app.UseEndpoints
+            //Original: 
+                    //app.UseEndpoints(endpoints =>
+                    //{
+                    //    endpoints.MapControllerRoute(
+                    //        name: "default",
+                    //        pattern: "{controller=Home}/{action=Index}/{id?}");
+                    //});
         }
     }
 }

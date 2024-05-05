@@ -24,6 +24,12 @@ namespace Cadastro_Venda_Veiculos.DAO
             parametros[1] = new SqlParameter("nome", vendedor.Nome);
             parametros[2] = new SqlParameter("Telefone", vendedor.Telefone);
             parametros[3] = new SqlParameter("Vendas", vendedor.Vendas);
+
+            if (vendedor.Vendas == null)
+                parametros[3] = new SqlParameter("vendas", DBNull.Value);
+            else
+                parametros[3] = new SqlParameter("vendas", vendedor.Vendas);
+
             return parametros;
         }
         public void Excluir(int id)
@@ -40,7 +46,11 @@ namespace Cadastro_Venda_Veiculos.DAO
             a.Id = Convert.ToInt32(registro["id"]);
             a.Nome = registro["nome"].ToString();
             a.Vendas = Convert.ToInt32(registro["Vendas"]);
-            a.Telefone = Convert.ToInt32(registro["Telefone"]);
+            a.Telefone = (string)registro["Telefone"];
+
+            if (registro["Vendas"] != DBNull.Value)
+                a.Vendas = (int?)Convert.ToDouble(registro["Vendas"]);
+
             return a;
         }
         public VendedorViewModel Consulta(int id)
