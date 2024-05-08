@@ -78,7 +78,7 @@ namespace Cadastro_Venda_Veiculos.DAO
         {
             var p = new SqlParameter[]
             {
-                new SqlParameter("tabela", "alunos")
+                new SqlParameter("tabela", "vendedores")
             };
             DataTable tabela = HelperDAO.ExecutaProcSelect("spProximoId", p);
             return Convert.ToInt32(tabela.Rows[0]["MAIOR"]);
