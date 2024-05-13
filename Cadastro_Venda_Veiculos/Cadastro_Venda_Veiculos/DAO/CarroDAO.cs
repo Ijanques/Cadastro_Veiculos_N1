@@ -45,7 +45,7 @@ namespace Cadastro_Venda_Veiculos.DAO
             a.Id = Convert.ToInt32(registro["id"]);
             a.Marca = registro["Marca"].ToString();
             a.Modelo = registro["Modelo"].ToString();
-            a.Placa = (string)registro["Telefone"];
+            a.Placa = null;
             a.Kilometragem = Convert.ToInt32(registro["Kilometragem"]);
             a.Valor = Convert.ToDouble(registro["Valor"]);
 

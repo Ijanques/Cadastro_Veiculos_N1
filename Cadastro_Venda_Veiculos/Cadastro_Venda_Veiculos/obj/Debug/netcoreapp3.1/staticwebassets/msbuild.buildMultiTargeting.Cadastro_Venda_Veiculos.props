@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Cadastro_Venda_Veiculos.props" />
+</Project>

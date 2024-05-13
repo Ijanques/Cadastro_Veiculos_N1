@@ -45,7 +45,7 @@ namespace Cadastro_Venda_Veiculos.DAO
             VendedorViewModel a = new VendedorViewModel();
             a.Id = Convert.ToInt32(registro["id"]);
             a.Nome = registro["nome"].ToString();
-            a.Vendas = Convert.ToInt32(registro["Vendas"]);
+            a.Vendas = null;
             a.Telefone = (string)registro["Telefone"];
 
             if (registro["Vendas"] != DBNull.Value)
@@ -69,7 +69,7 @@ namespace Cadastro_Venda_Veiculos.DAO
         {
             List<VendedorViewModel> lista = new List<VendedorViewModel>();
 
-            DataTable tabela = HelperDAO.ExecutaProcSelect("spListagemVendedors", null);
+            DataTable tabela = HelperDAO.ExecutaProcSelect("spListagemVendedores", null);
             foreach (DataRow registro in tabela.Rows)
                 lista.Add(MontaVendedor(registro));
             return lista;

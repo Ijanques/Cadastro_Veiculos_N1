@@ -1,0 +1,46 @@
+﻿@model List<CarroViewModel>
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<h2>Listagem de Carros</h2>
+<table class="table table-responsive">
+    <tr>
+        <th>Ações</th>
+        <th>ID</th>
+        <th>Marca</th>
+        <th>Modelo</th>
+        <th>Placa</th>
+        <th>Kilometragem</th>
+        <th>Valor</th>
+        <th>Detalhes</th>
+    </tr>
+    @foreach (var carro in Model)
+    {
+        <tr>
+            <td><a href="/aluno/Edit?id=@carro.Id">Editar</a> / 
+                <a href="javascript:apagarCarro(@carro.Id)">Apagar</a>
+            </td>
+            <td>@carro.Id</td>
+            <td>@carro.Marca</td>
+            <td>@carro.Modelo</td>
+            <td>@carro.Placa</td>
+            <td>@carro.Kilometragem</td>
+            <td>@carro.Valor</td>
+            <td>
+                <a href="/carro/verDetalhes?id=@carro.Id">Ver detalhes</a>
+            </td>
+        </tr>
+    }
+</table>
+
+<script>
+    function apagarCarro(id) {
+        if (confirm('Confirma a exclusão do registro?'))
+            location.href = 'carro/Delete?id=' + id;
+    }
+</script>
+
+<h2>Listagem de Carros</h2>
+<a href="/carro/create">Novo Registro</a>
+<br />
+<table class="table table-responsive">

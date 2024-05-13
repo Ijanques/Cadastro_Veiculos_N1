@@ -14,13 +14,15 @@
     @foreach (var vendedor in Model)
     {
         <tr>
-            <td></td>
-            <td><a href="/aluno/Edit?id=@vendedor.Id">Editar</a> </td>
-            <a href="javascript:apagarVendedor(@vendedor.Id)">Apagar</a>
+            <td><a href="/vendedor/Edit?id=@vendedor.Id">Editar</a> / 
+                <a href="javascript:apagarVendedor(@vendedor.Id)">Apagar</a>
+            </td>
             <td>@vendedor.Id</td>
             <td>@vendedor.Nome</td>
             <td>@vendedor.Telefone</td>
-            <td>@vendedor.Vendas</td>
+            <td>@vendedor.Vendas -- 
+                <a href="/vendedor/listarVendas?id=@vendedor.Id">Listar vendas</a>
+            </td>
         </tr>
     }
 </table>
