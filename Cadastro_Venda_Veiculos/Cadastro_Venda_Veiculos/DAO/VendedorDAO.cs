@@ -59,7 +59,7 @@ namespace Cadastro_Venda_Veiculos.DAO
             {
                 new SqlParameter("id", id)
             };
-            DataTable tabela = HelperDAO.ExecutaProcSelect("spConsultaVendedor", p);
+            DataTable tabela = HelperDAO.ExecutaProcSelect("spConsultaVendedo=", p);
             if (tabela.Rows.Count == 0)
                 return null;
             else

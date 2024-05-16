@@ -6,7 +6,7 @@ namespace Cadastro_Venda_Veiculos.DAO
     {
         public static SqlConnection GetConexao()
         {
-            string strCon = "Data Source=LOCALHOST; Database=AULADB; user id=sa; password=123456";
+            string strCon = "Data Source=localhost; Database=AULADB;  integrated security=true";
             SqlConnection conexao = new SqlConnection(strCon);
             conexao.Open();
             return conexao;

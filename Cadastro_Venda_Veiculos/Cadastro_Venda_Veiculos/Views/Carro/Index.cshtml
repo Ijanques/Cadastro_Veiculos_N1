@@ -2,7 +2,7 @@
 @{
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
-<h2>Listagem de Carros</h2>
+<h2>Listagem de Veículos</h2>
 <table class="table table-responsive">
     <tr>
         <th>Ações</th>
@@ -12,12 +12,14 @@
         <th>Placa</th>
         <th>Kilometragem</th>
         <th>Valor</th>
+        <th>Tipo</th>
         <th>Detalhes</th>
     </tr>
     @foreach (var carro in Model)
     {
         <tr>
-            <td><a href="/aluno/Edit?id=@carro.Id">Editar</a> / 
+            <td>
+                <a href="/vendedor/Edit?id=@carro.Id">Editar</a> /
                 <a href="javascript:apagarCarro(@carro.Id)">Apagar</a>
             </td>
             <td>@carro.Id</td>
@@ -26,6 +28,7 @@
             <td>@carro.Placa</td>
             <td>@carro.Kilometragem</td>
             <td>@carro.Valor</td>
+            <td>@carro.Tipo</td>
             <td>
                 <a href="/carro/verDetalhes?id=@carro.Id">Ver detalhes</a>
             </td>
@@ -40,7 +43,7 @@
     }
 </script>
 
-<h2>Listagem de Carros</h2>
+<h2>Listagem de Veículos</h2>
 <a href="/carro/create">Novo Registro</a>
 <br />
 <table class="table table-responsive">

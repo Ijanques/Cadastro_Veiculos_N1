@@ -1,34 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "Z:\\Cadastro_Veiculos_N1\\Cadastro_Venda_Veiculos\\Cadastro_Venda_Veiculos\\Cadastro_Venda_Veiculos.csproj": {}
+    "C:\\Users\\evand\\Documents\\GitHub\\Cadastro_Veiculos_N1\\Cadastro_Venda_Veiculos\\Cadastro_Venda_Veiculos\\Cadastro_Venda_Veiculos.csproj": {}
   },
   "projects": {
-    "Z:\\Cadastro_Veiculos_N1\\Cadastro_Venda_Veiculos\\Cadastro_Venda_Veiculos\\Cadastro_Venda_Veiculos.csproj": {
+    "C:\\Users\\evand\\Documents\\GitHub\\Cadastro_Veiculos_N1\\Cadastro_Venda_Veiculos\\Cadastro_Venda_Veiculos\\Cadastro_Venda_Veiculos.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "Z:\\Cadastro_Veiculos_N1\\Cadastro_Venda_Veiculos\\Cadastro_Venda_Veiculos\\Cadastro_Venda_Veiculos.csproj",
+        "projectUniqueName": "C:\\Users\\evand\\Documents\\GitHub\\Cadastro_Veiculos_N1\\Cadastro_Venda_Veiculos\\Cadastro_Venda_Veiculos\\Cadastro_Venda_Veiculos.csproj",
         "projectName": "Cadastro_Venda_Veiculos",
-        "projectPath": "Z:\\Cadastro_Veiculos_N1\\Cadastro_Venda_Veiculos\\Cadastro_Venda_Veiculos\\Cadastro_Venda_Veiculos.csproj",
-        "packagesPath": "C:\\Users\\081220030\\.nuget\\packages\\",
-        "outputPath": "Z:\\Cadastro_Veiculos_N1\\Cadastro_Venda_Veiculos\\Cadastro_Venda_Veiculos\\obj\\",
+        "projectPath": "C:\\Users\\evand\\Documents\\GitHub\\Cadastro_Veiculos_N1\\Cadastro_Venda_Veiculos\\Cadastro_Venda_Veiculos\\Cadastro_Venda_Veiculos.csproj",
+        "packagesPath": "C:\\Users\\evand\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\evand\\Documents\\GitHub\\Cadastro_Veiculos_N1\\Cadastro_Venda_Veiculos\\Cadastro_Venda_Veiculos\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
-        ],
         "configFilePaths": [
-          "C:\\Users\\081220030\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\evand\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -41,12 +34,21 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "dependencies": {
+            "Microsoft.Data.SqlClient": {
+              "target": "Package",
+              "version": "[5.2.0, )"
+            },
             "System.Data.SqlClient": {
               "target": "Package",
               "version": "[4.8.6, )"
@@ -71,7 +73,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -1,0 +1,73 @@
+﻿@model MotoViewModel
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<h2>Cadastro de motos</h2>
+<form action="Salvar" method="post">
+    <label for="Id" class="control-label">ID</label>
+    <input type="number" Name="Id" value="@Model.Id" />
+    <br />
+    <label for="Marca" class="control-label">Marca do veiculo</label>
+    <input type="text" Name="Marca" value="@Model.Marca" />
+    <br />
+    <label for="Modelo" class="control-label">Modelo</label>
+    <input type="text" Name="Modelo" value="@Model.Modelo" />
+    <br />
+    <label for="Placa" class="control-label">Placa</label>
+    <input type="text" Name="Placa" value="@Model.Placa" />
+    <br />
+    <label for="Kilometragem" class="control-label">Kilometragem</label>
+    <input type="number" Name="Kilometragem" value="@Model.Kilometragem" />
+    <br />
+    <label for="Cilindrada" class="control-label">Cilindrada</label>
+    <input type="number" Name="Tipo" value="@Model.Cilindrada" />
+    <br />
+    <input type="submit" value="Salvar dados" />
+    <br />
+
+    @* tópico 22 e 24 do rosalém *@
+    <div class="row">
+        <div class="col-md-4">
+            <form action="Salvar" method="post">
+                <input type="hidden" name="Operacao" value="@ViewBag.Operacao" />
+                <label for="Id" class="control-label">ID</label>
+                @if (ViewBag.Operacao == "I")
+                {
+                    <input asp-for="Id" class="form-control" />
+                }
+                else
+                {
+                    <input asp-for="Id" class="form-control" readonly />
+                }
+                <span asp-validation-for="Id" class="text-danger"></span>
+                <br />
+                <label for="Marca" class="control-label">Marca do veiculo</label>
+                <input asp-for="Marca" class="form-control" />
+                <span asp-validation-for="Marca" class="text-danger"></span>
+                <br />
+                <label for="Modelo" class="control-label">Modelo</label>
+                <input asp-for="Modelo" class="form-control" />
+                <span asp-validation-for="Modelo" class="text-danger"></span>
+                <br />
+                <label for="Placa" class="control-label">Placa</label>
+                <input asp-for="Placa" class="form-control" />
+                <span asp-validation-for="Placa" class="text-danger"></span>
+                <br />
+                <label for="Kilometragem" class="control-label">Kilometragem</label>
+                <input asp-for="Kilometragem" class="form-control" />
+                <span asp-validation-for="Kilometragem" class="text-danger"></span>
+                <br />
+                <label for="Cilindrada" class="control-label">Cilindrada</label>
+                <input asp-for="Cilindrada" class="form-control" />
+                <span asp-validation-for="Cilindrada" class="text-danger"></span>
+                <br />
+                <input type="submit" value="Salvar dados" />
+                &nbsp;
+                <a href="/vendedor/index" class="btn btn-light">Voltar</a>
+                <br />
+            </form>
+        </div>
+    </div>
+
+</form>
+

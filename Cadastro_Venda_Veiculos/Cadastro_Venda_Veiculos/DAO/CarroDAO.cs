@@ -25,6 +25,7 @@ namespace Cadastro_Venda_Veiculos.DAO
             parametros[3] = new SqlParameter("Placa", carro.Placa);
             parametros[4] = new SqlParameter("Kilometragem", carro.Kilometragem);
             parametros[5] = new SqlParameter("Valor", carro.Valor);
+            parametros[6] = new SqlParameter("Tipo", carro.Tipo);
 
             if (carro.Placa == null)
                 parametros[3] = new SqlParameter("Placa", DBNull.Value);
@@ -48,9 +49,10 @@ namespace Cadastro_Venda_Veiculos.DAO
             a.Placa = null;
             a.Kilometragem = Convert.ToInt32(registro["Kilometragem"]);
             a.Valor = Convert.ToDouble(registro["Valor"]);
+            a.Tipo = registro["Tipo"].ToString();
 
             if (registro["Placa"] != DBNull.Value)
-                a.Placa = Convert.ToString(registro["Vendas"]);
+                a.Placa = Convert.ToString(registro["Placa"]);
 
             return a;
         }

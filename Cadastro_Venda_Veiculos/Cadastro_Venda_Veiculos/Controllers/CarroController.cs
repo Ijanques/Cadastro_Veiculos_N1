@@ -6,7 +6,7 @@ using System.Collections.Generic;
 using System.Text.RegularExpressions;
 using System.Threading;
 
-namespace Cadastro_Venda_Veiculos.Controllers
+namespace Cadastro_Venda_carros.Controllers
 {
     public class CarroController : Controller
     {
@@ -109,14 +109,15 @@ namespace Cadastro_Venda_Veiculos.Controllers
                 ModelState.AddModelError("Id", "Id inválido!");
 
             if (string.IsNullOrEmpty(carro.Marca))
-                ModelState.AddModelError("Marca", "Preencha a marca do veiculo.");
+                ModelState.AddModelError("Marca", "Preencha a marca do carro.");
             if (string.IsNullOrEmpty(carro.Modelo))
                 ModelState.AddModelError("Modelo", "Campo obrigatório.");
             if (carro.Kilometragem < 0)
                 ModelState.AddModelError("Kilometragem", "A kilometragem não pode ser menor que zero.");
             if (carro.Valor <= 0)
                 ModelState.AddModelError("Valor", "O valor não pode ser menor ou igual a zero.");
-
+            if (string.IsNullOrEmpty(carro.Tipo))
+                ModelState.AddModelError("Tipo", "Campo obrigatório.");
         }
 
 
