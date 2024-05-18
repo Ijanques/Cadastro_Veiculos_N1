@@ -18,7 +18,7 @@ namespace Cadastro_Venda_Veiculos.DAO
         }
         private SqlParameter[] CriaParametros(CarroViewModel carro)
         {
-            SqlParameter[] parametros = new SqlParameter[5];
+            SqlParameter[] parametros = new SqlParameter[7];
             parametros[0] = new SqlParameter("id", carro.Id);
             parametros[1] = new SqlParameter("Marca", carro.Marca);
             parametros[2] = new SqlParameter("Modelo", carro.Modelo);
@@ -38,7 +38,7 @@ namespace Cadastro_Venda_Veiculos.DAO
             {
                 new SqlParameter("id", id)
             };
-            HelperDAO.ExecutaProc("spExcluiCarro", p);
+            HelperDAO.ExecutaProc("spExcluiCarros", p);
         }
         private CarroViewModel MontaCarro(DataRow registro)
         {

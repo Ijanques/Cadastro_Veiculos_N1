@@ -214,3 +214,5 @@ C:\Users\evand\Documents\GitHub\Cadastro_Veiculos_N1\Cadastro_Venda_Veiculos\Cad
 C:\Users\evand\Documents\GitHub\Cadastro_Veiculos_N1\Cadastro_Venda_Veiculos\Cadastro_Venda_Veiculos\obj\Debug\netcoreapp3.1\staticwebassets\msbuild.buildTransitive.Cadastro_Venda_Veiculos.props
 C:\Users\evand\Documents\GitHub\Cadastro_Veiculos_N1\Cadastro_Venda_Veiculos\Cadastro_Venda_Veiculos\obj\Debug\netcoreapp3.1\Cadastro.C58DDE59.Up2Date
 C:\Users\evand\Documents\GitHub\Cadastro_Veiculos_N1\Cadastro_Venda_Veiculos\Cadastro_Venda_Veiculos\obj\Debug\netcoreapp3.1\Cadastro_Venda_Veiculos.genruntimeconfig.cache
+C:\Users\evand\Documents\GitHub\Cadastro_Veiculos_N1\Cadastro_Venda_Veiculos\Cadastro_Venda_Veiculos\obj\Debug\netcoreapp3.1\Razor\Views\Moto\Form.cshtml.g.cs
+C:\Users\evand\Documents\GitHub\Cadastro_Veiculos_N1\Cadastro_Venda_Veiculos\Cadastro_Venda_Veiculos\obj\Debug\netcoreapp3.1\Razor\Views\Moto\Index.cshtml.g.cs

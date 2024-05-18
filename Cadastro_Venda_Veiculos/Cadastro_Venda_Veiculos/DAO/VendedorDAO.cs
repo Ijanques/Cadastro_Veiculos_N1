@@ -19,16 +19,16 @@ namespace Cadastro_Venda_Veiculos.DAO
         }
         private SqlParameter[] CriaParametros(VendedorViewModel vendedor)
         {
-            SqlParameter[] parametros = new SqlParameter[5];
+            SqlParameter[] parametros = new SqlParameter[3];
             parametros[0] = new SqlParameter("id", vendedor.Id);
             parametros[1] = new SqlParameter("nome", vendedor.Nome);
             parametros[2] = new SqlParameter("Telefone", vendedor.Telefone);
-            parametros[3] = new SqlParameter("Vendas", vendedor.Vendas);
+            /*parametros[3] = new SqlParameter("Vendas", vendedor.Vendas);
 
             if (vendedor.Vendas == null)
                 parametros[3] = new SqlParameter("vendas", DBNull.Value);
             else
-                parametros[3] = new SqlParameter("vendas", vendedor.Vendas);
+                parametros[3] = new SqlParameter("vendas", vendedor.Vendas);*/
 
             return parametros;
         }
@@ -49,7 +49,7 @@ namespace Cadastro_Venda_Veiculos.DAO
             a.Telefone = (string)registro["Telefone"];
 
             if (registro["Vendas"] != DBNull.Value)
-                a.Vendas = (int?)Convert.ToDouble(registro["Vendas"]);
+                a.Vendas = (int)registro["Vendas"];
 
             return a;
         }
@@ -59,8 +59,8 @@ namespace Cadastro_Venda_Veiculos.DAO
             {
                 new SqlParameter("id", id)
             };
-            DataTable tabela = HelperDAO.ExecutaProcSelect("spConsultaVendedo=", p);
-            if (tabela.Rows.Count == 0)
+            DataTable tabela = HelperDAO.ExecutaProcSelect("spConsultaVendedor", p);
+            if (tabela.Rows.Count == 0)     
                 return null;
             else
                 return MontaVendedor(tabela.Rows[0]);

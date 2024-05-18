@@ -19,7 +19,7 @@ namespace Cadastro_Venda_Veiculos.DAO
         }
         private SqlParameter[] CriaParametros(MotoViewModel moto)
         {
-            SqlParameter[] parametros = new SqlParameter[5];
+            SqlParameter[] parametros = new SqlParameter[7];
             parametros[0] = new SqlParameter("id", moto.Id);
             parametros[1] = new SqlParameter("Marca", moto.Marca);
             parametros[2] = new SqlParameter("Modelo", moto.Modelo);

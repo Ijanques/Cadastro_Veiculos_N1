@@ -112,9 +112,6 @@ namespace Cadastro_Venda_Veiculos.Controllers
                 ModelState.AddModelError("Nome", "Preencha o nome.");
             if (string.IsNullOrEmpty(vendedor.Telefone))
                 ModelState.AddModelError("Telefone", "Campo obrigatório.");
-            if (vendedor.Vendas <= 0)
-                ModelState.AddModelError("Vendas", "Informe o código da venda.");
-
         }
 
 

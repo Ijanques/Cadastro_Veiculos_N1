@@ -4,27 +4,6 @@
 }
 <h2>Cadastro de carros</h2>
 <form action="Salvar" method="post">
-    <label for="Id" class="control-label">ID</label>
-    <input type="number" Name="Id" value="@Model.Id" />
-    <br />
-    <label for="Marca" class="control-label">Marca do veiculo</label>
-    <input type="text" Name="Marca" value="@Model.Marca" />
-    <br />
-    <label for="Modelo" class="control-label">Modelo</label>
-    <input type="text" Name="Modelo" value="@Model.Modelo" />
-    <br />
-    <label for="Placa" class="control-label">Placa</label>
-    <input type="text" Name="Placa" value="@Model.Placa" />
-    <br />
-    <label for="Kilometragem" class="control-label">Kilometragem</label>
-    <input type="number" Name="Kilometragem" value="@Model.Kilometragem" />
-    <br />
-    <label for="Tipo" class="control-label">Tipo</label>
-    <input type="text" Name="Tipo" value="@Model.Tipo" />
-    <br />
-    <input type="submit" value="Salvar dados" />
-    <br />
-
     @* tópico 22 e 24 do rosalém *@
     <div class="row">
         <div class="col-md-4">
@@ -57,17 +36,20 @@
                 <input asp-for="Kilometragem" class="form-control" />
                 <span asp-validation-for="Kilometragem" class="text-danger"></span>
                 <br />
+                <label for="Valor" class="control-label">Valor</label>
+                <input asp-for="Valor" class="form-control" />
+                <span asp-validation-for="Valor" class="text-danger"></span>
+                <br />
                 <label for="Tipo" class="control-label">Tipo</label>
                 <input asp-for="Tipo" class="form-control" />
                 <span asp-validation-for="Tipo" class="text-danger"></span>
                 <br />
                 <input type="submit" value="Salvar dados" />
                 &nbsp;
-                <a href="/vendedor/index" class="btn btn-light">Voltar</a>
+                <a href="/carro/index" class="btn btn-light">Voltar</a>
                 <br />
             </form>
         </div>
     </div>
-
 </form>
 

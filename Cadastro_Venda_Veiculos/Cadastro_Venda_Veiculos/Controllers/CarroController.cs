@@ -23,7 +23,6 @@ namespace Cadastro_Venda_carros.Controllers
             try
             {
                 CarroViewModel carro = new CarroViewModel();
-
                 CarroDAO dao = new CarroDAO();
                 carro.Id = dao.ProximoId();
                 return View("Form", carro);
@@ -48,11 +47,11 @@ namespace Cadastro_Venda_carros.Controllers
                 {
                     CarroDAO dao = new CarroDAO();
                     if (Operacao == "I")
-
+                        Console.WriteLine(dao.Consulta(carro.Id));
                         if (dao.Consulta(carro.Id) == null)
                             dao.Inserir(carro);
                         else
-                            dao.Alterar(carro);
+                           dao.Alterar(carro);
                     return RedirectToAction("index");
                 }
             }
