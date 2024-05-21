@@ -3,107 +3,123 @@
   "WorkspaceRootPath": "C:\\Users\\evand\\Documents\\GitHub\\Cadastro_Veiculos_N1\\Cadastro_Venda_Veiculos\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CB07473B-C190-4C7E-8754-3D7C8D454B5C}|Cadastro_Venda_Veiculos\\Cadastro_Venda_Veiculos.csproj|c:\\users\\evand\\documents\\github\\cadastro_veiculos_n1\\cadastro_venda_veiculos\\cadastro_venda_veiculos\\controllers\\carrocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CB07473B-C190-4C7E-8754-3D7C8D454B5C}|Cadastro_Venda_Veiculos\\Cadastro_Venda_Veiculos.csproj|solutionrelative:cadastro_venda_veiculos\\controllers\\carrocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CB07473B-C190-4C7E-8754-3D7C8D454B5C}|Cadastro_Venda_Veiculos\\Cadastro_Venda_Veiculos.csproj|c:\\users\\evand\\documents\\github\\cadastro_veiculos_n1\\cadastro_venda_veiculos\\cadastro_venda_veiculos\\views\\veiculo\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CB07473B-C190-4C7E-8754-3D7C8D454B5C}|Cadastro_Venda_Veiculos\\Cadastro_Venda_Veiculos.csproj|solutionrelative:cadastro_venda_veiculos\\views\\veiculo\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CB07473B-C190-4C7E-8754-3D7C8D454B5C}|Cadastro_Venda_Veiculos\\Cadastro_Venda_Veiculos.csproj|c:\\users\\evand\\documents\\github\\cadastro_veiculos_n1\\cadastro_venda_veiculos\\cadastro_venda_veiculos\\views\\carro\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{CB07473B-C190-4C7E-8754-3D7C8D454B5C}|Cadastro_Venda_Veiculos\\Cadastro_Venda_Veiculos.csproj|solutionrelative:cadastro_venda_veiculos\\views\\carro\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CB07473B-C190-4C7E-8754-3D7C8D454B5C}|Cadastro_Venda_Veiculos\\Cadastro_Venda_Veiculos.csproj|c:\\users\\evand\\documents\\github\\cadastro_veiculos_n1\\cadastro_venda_veiculos\\cadastro_venda_veiculos\\dao\\conexaobd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CB07473B-C190-4C7E-8754-3D7C8D454B5C}|Cadastro_Venda_Veiculos\\Cadastro_Venda_Veiculos.csproj|solutionrelative:cadastro_venda_veiculos\\dao\\conexaobd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CB07473B-C190-4C7E-8754-3D7C8D454B5C}|Cadastro_Venda_Veiculos\\Cadastro_Venda_Veiculos.csproj|c:\\users\\evand\\documents\\github\\cadastro_veiculos_n1\\cadastro_venda_veiculos\\cadastro_venda_veiculos\\dao\\helperdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CB07473B-C190-4C7E-8754-3D7C8D454B5C}|Cadastro_Venda_Veiculos\\Cadastro_Venda_Veiculos.csproj|solutionrelative:cadastro_venda_veiculos\\dao\\helperdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CB07473B-C190-4C7E-8754-3D7C8D454B5C}|Cadastro_Venda_Veiculos\\Cadastro_Venda_Veiculos.csproj|c:\\users\\evand\\documents\\github\\cadastro_veiculos_n1\\cadastro_venda_veiculos\\cadastro_venda_veiculos\\dao\\vendedordao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CB07473B-C190-4C7E-8754-3D7C8D454B5C}|Cadastro_Venda_Veiculos\\Cadastro_Venda_Veiculos.csproj|solutionrelative:cadastro_venda_veiculos\\dao\\vendedordao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CB07473B-C190-4C7E-8754-3D7C8D454B5C}|Cadastro_Venda_Veiculos\\Cadastro_Venda_Veiculos.csproj|c:\\users\\evand\\documents\\github\\cadastro_veiculos_n1\\cadastro_venda_veiculos\\cadastro_venda_veiculos\\controllers\\vendedorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CB07473B-C190-4C7E-8754-3D7C8D454B5C}|Cadastro_Venda_Veiculos\\Cadastro_Venda_Veiculos.csproj|solutionrelative:cadastro_venda_veiculos\\controllers\\vendedorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CB07473B-C190-4C7E-8754-3D7C8D454B5C}|Cadastro_Venda_Veiculos\\Cadastro_Venda_Veiculos.csproj|c:\\users\\evand\\documents\\github\\cadastro_veiculos_n1\\cadastro_venda_veiculos\\cadastro_venda_veiculos\\views\\vendedor\\form.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{CB07473B-C190-4C7E-8754-3D7C8D454B5C}|Cadastro_Venda_Veiculos\\Cadastro_Venda_Veiculos.csproj|solutionrelative:cadastro_venda_veiculos\\views\\vendedor\\form.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CB07473B-C190-4C7E-8754-3D7C8D454B5C}|Cadastro_Venda_Veiculos\\Cadastro_Venda_Veiculos.csproj|c:\\users\\evand\\documents\\github\\cadastro_veiculos_n1\\cadastro_venda_veiculos\\cadastro_venda_veiculos\\views\\carro\\form.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{CB07473B-C190-4C7E-8754-3D7C8D454B5C}|Cadastro_Venda_Veiculos\\Cadastro_Venda_Veiculos.csproj|solutionrelative:cadastro_venda_veiculos\\views\\carro\\form.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CB07473B-C190-4C7E-8754-3D7C8D454B5C}|Cadastro_Venda_Veiculos\\Cadastro_Venda_Veiculos.csproj|c:\\users\\evand\\documents\\github\\cadastro_veiculos_n1\\cadastro_venda_veiculos\\cadastro_venda_veiculos\\dao\\carrodao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CB07473B-C190-4C7E-8754-3D7C8D454B5C}|Cadastro_Venda_Veiculos\\Cadastro_Venda_Veiculos.csproj|solutionrelative:cadastro_venda_veiculos\\dao\\carrodao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CB07473B-C190-4C7E-8754-3D7C8D454B5C}|Cadastro_Venda_Veiculos\\Cadastro_Venda_Veiculos.csproj|c:\\users\\evand\\documents\\github\\cadastro_veiculos_n1\\cadastro_venda_veiculos\\cadastro_venda_veiculos\\views\\vendedor\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{CB07473B-C190-4C7E-8754-3D7C8D454B5C}|Cadastro_Venda_Veiculos\\Cadastro_Venda_Veiculos.csproj|solutionrelative:cadastro_venda_veiculos\\views\\vendedor\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CB07473B-C190-4C7E-8754-3D7C8D454B5C}|Cadastro_Venda_Veiculos\\Cadastro_Venda_Veiculos.csproj|c:\\users\\evand\\documents\\github\\cadastro_veiculos_n1\\cadastro_venda_veiculos\\cadastro_venda_veiculos\\dao\\clientedao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CB07473B-C190-4C7E-8754-3D7C8D454B5C}|Cadastro_Venda_Veiculos\\Cadastro_Venda_Veiculos.csproj|solutionrelative:cadastro_venda_veiculos\\dao\\clientedao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CB07473B-C190-4C7E-8754-3D7C8D454B5C}|Cadastro_Venda_Veiculos\\Cadastro_Venda_Veiculos.csproj|c:\\users\\evand\\documents\\github\\cadastro_veiculos_n1\\cadastro_venda_veiculos\\cadastro_venda_veiculos\\models\\vendedorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CB07473B-C190-4C7E-8754-3D7C8D454B5C}|Cadastro_Venda_Veiculos\\Cadastro_Venda_Veiculos.csproj|solutionrelative:cadastro_venda_veiculos\\models\\vendedorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CB07473B-C190-4C7E-8754-3D7C8D454B5C}|Cadastro_Venda_Veiculos\\Cadastro_Venda_Veiculos.csproj|c:\\users\\evand\\documents\\github\\cadastro_veiculos_n1\\cadastro_venda_veiculos\\cadastro_venda_veiculos\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CB07473B-C190-4C7E-8754-3D7C8D454B5C}|Cadastro_Venda_Veiculos\\Cadastro_Venda_Veiculos.csproj|solutionrelative:cadastro_venda_veiculos\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CB07473B-C190-4C7E-8754-3D7C8D454B5C}|Cadastro_Venda_Veiculos\\Cadastro_Venda_Veiculos.csproj|c:\\users\\evand\\documents\\github\\cadastro_veiculos_n1\\cadastro_venda_veiculos\\cadastro_venda_veiculos\\dao\\motodao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CB07473B-C190-4C7E-8754-3D7C8D454B5C}|Cadastro_Venda_Veiculos\\Cadastro_Venda_Veiculos.csproj|solutionrelative:cadastro_venda_veiculos\\dao\\motodao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\dotnet\\sdk\\8.0.202\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.PackageDependencyResolution.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CB07473B-C190-4C7E-8754-3D7C8D454B5C}|Cadastro_Venda_Veiculos\\Cadastro_Venda_Veiculos.csproj|c:\\users\\evand\\documents\\github\\cadastro_veiculos_n1\\cadastro_venda_veiculos\\cadastro_venda_veiculos\\views\\moto\\form.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{CB07473B-C190-4C7E-8754-3D7C8D454B5C}|Cadastro_Venda_Veiculos\\Cadastro_Venda_Veiculos.csproj|solutionrelative:cadastro_venda_veiculos\\views\\moto\\form.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CB07473B-C190-4C7E-8754-3D7C8D454B5C}|Cadastro_Venda_Veiculos\\Cadastro_Venda_Veiculos.csproj|c:\\users\\evand\\documents\\github\\cadastro_veiculos_n1\\cadastro_venda_veiculos\\cadastro_venda_veiculos\\views\\moto\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{CB07473B-C190-4C7E-8754-3D7C8D454B5C}|Cadastro_Venda_Veiculos\\Cadastro_Venda_Veiculos.csproj|solutionrelative:cadastro_venda_veiculos\\views\\moto\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CB07473B-C190-4C7E-8754-3D7C8D454B5C}|Cadastro_Venda_Veiculos\\Cadastro_Venda_Veiculos.csproj|c:\\users\\evand\\documents\\github\\cadastro_veiculos_n1\\cadastro_venda_veiculos\\cadastro_venda_veiculos\\models\\pessoaviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CB07473B-C190-4C7E-8754-3D7C8D454B5C}|Cadastro_Venda_Veiculos\\Cadastro_Venda_Veiculos.csproj|solutionrelative:cadastro_venda_veiculos\\models\\pessoaviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CB07473B-C190-4C7E-8754-3D7C8D454B5C}|Cadastro_Venda_Veiculos\\Cadastro_Venda_Veiculos.csproj|c:\\users\\evand\\documents\\github\\cadastro_veiculos_n1\\cadastro_venda_veiculos\\cadastro_venda_veiculos\\models\\motoviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CB07473B-C190-4C7E-8754-3D7C8D454B5C}|Cadastro_Venda_Veiculos\\Cadastro_Venda_Veiculos.csproj|solutionrelative:cadastro_venda_veiculos\\models\\motoviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CB07473B-C190-4C7E-8754-3D7C8D454B5C}|Cadastro_Venda_Veiculos\\Cadastro_Venda_Veiculos.csproj|c:\\users\\evand\\documents\\github\\cadastro_veiculos_n1\\cadastro_venda_veiculos\\cadastro_venda_veiculos\\controllers\\veiculocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB07473B-C190-4C7E-8754-3D7C8D454B5C}|Cadastro_Venda_Veiculos\\Cadastro_Venda_Veiculos.csproj|solutionrelative:cadastro_venda_veiculos\\controllers\\veiculocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CB07473B-C190-4C7E-8754-3D7C8D454B5C}|Cadastro_Venda_Veiculos\\Cadastro_Venda_Veiculos.csproj|c:\\users\\evand\\documents\\github\\cadastro_veiculos_n1\\cadastro_venda_veiculos\\cadastro_venda_veiculos\\models\\veiculoviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CB07473B-C190-4C7E-8754-3D7C8D454B5C}|Cadastro_Venda_Veiculos\\Cadastro_Venda_Veiculos.csproj|solutionrelative:cadastro_venda_veiculos\\models\\veiculoviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CB07473B-C190-4C7E-8754-3D7C8D454B5C}|Cadastro_Venda_Veiculos\\Cadastro_Venda_Veiculos.csproj|c:\\users\\evand\\documents\\github\\cadastro_veiculos_n1\\cadastro_venda_veiculos\\cadastro_venda_veiculos\\models\\clienteviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CB07473B-C190-4C7E-8754-3D7C8D454B5C}|Cadastro_Venda_Veiculos\\Cadastro_Venda_Veiculos.csproj|solutionrelative:cadastro_venda_veiculos\\models\\clienteviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CB07473B-C190-4C7E-8754-3D7C8D454B5C}|Cadastro_Venda_Veiculos\\Cadastro_Venda_Veiculos.csproj|c:\\users\\evand\\documents\\github\\cadastro_veiculos_n1\\cadastro_venda_veiculos\\cadastro_venda_veiculos\\dao\\veiculodao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB07473B-C190-4C7E-8754-3D7C8D454B5C}|Cadastro_Venda_Veiculos\\Cadastro_Venda_Veiculos.csproj|solutionrelative:cadastro_venda_veiculos\\dao\\veiculodao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CB07473B-C190-4C7E-8754-3D7C8D454B5C}|Cadastro_Venda_Veiculos\\Cadastro_Venda_Veiculos.csproj|c:\\users\\evand\\documents\\github\\cadastro_veiculos_n1\\cadastro_venda_veiculos\\cadastro_venda_veiculos\\models\\carroviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CB07473B-C190-4C7E-8754-3D7C8D454B5C}|Cadastro_Venda_Veiculos\\Cadastro_Venda_Veiculos.csproj|solutionrelative:cadastro_venda_veiculos\\models\\carroviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CB07473B-C190-4C7E-8754-3D7C8D454B5C}|Cadastro_Venda_Veiculos\\Cadastro_Venda_Veiculos.csproj|c:\\users\\evand\\documents\\github\\cadastro_veiculos_n1\\cadastro_venda_veiculos\\cadastro_venda_veiculos\\dao\\pessoadao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB07473B-C190-4C7E-8754-3D7C8D454B5C}|Cadastro_Venda_Veiculos\\Cadastro_Venda_Veiculos.csproj|solutionrelative:cadastro_venda_veiculos\\dao\\pessoadao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:1:0:{CB07473B-C190-4C7E-8754-3D7C8D454B5C}|Cadastro_Venda_Veiculos\\Cadastro_Venda_Veiculos.csproj|c:\\users\\evand\\documents\\github\\cadastro_veiculos_n1\\cadastro_venda_veiculos\\cadastro_venda_veiculos\\models\\pessoaviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:1:0:{CB07473B-C190-4C7E-8754-3D7C8D454B5C}|Cadastro_Venda_Veiculos\\Cadastro_Venda_Veiculos.csproj|solutionrelative:cadastro_venda_veiculos\\models\\pessoaviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB07473B-C190-4C7E-8754-3D7C8D454B5C}|Cadastro_Venda_Veiculos\\Cadastro_Venda_Veiculos.csproj|c:\\users\\evand\\documents\\github\\cadastro_veiculos_n1\\cadastro_venda_veiculos\\cadastro_venda_veiculos\\dao\\padraodao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB07473B-C190-4C7E-8754-3D7C8D454B5C}|Cadastro_Venda_Veiculos\\Cadastro_Venda_Veiculos.csproj|solutionrelative:cadastro_venda_veiculos\\dao\\padraodao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB07473B-C190-4C7E-8754-3D7C8D454B5C}|Cadastro_Venda_Veiculos\\Cadastro_Venda_Veiculos.csproj|c:\\users\\evand\\documents\\github\\cadastro_veiculos_n1\\cadastro_venda_veiculos\\cadastro_venda_veiculos\\controllers\\padraocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB07473B-C190-4C7E-8754-3D7C8D454B5C}|Cadastro_Venda_Veiculos\\Cadastro_Venda_Veiculos.csproj|solutionrelative:cadastro_venda_veiculos\\controllers\\padraocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB07473B-C190-4C7E-8754-3D7C8D454B5C}|Cadastro_Venda_Veiculos\\Cadastro_Venda_Veiculos.csproj|c:\\users\\evand\\documents\\github\\cadastro_veiculos_n1\\cadastro_venda_veiculos\\cadastro_venda_veiculos\\views\\pessoa\\form.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CB07473B-C190-4C7E-8754-3D7C8D454B5C}|Cadastro_Venda_Veiculos\\Cadastro_Venda_Veiculos.csproj|solutionrelative:cadastro_venda_veiculos\\views\\pessoa\\form.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB07473B-C190-4C7E-8754-3D7C8D454B5C}|Cadastro_Venda_Veiculos\\Cadastro_Venda_Veiculos.csproj|c:\\users\\evand\\documents\\github\\cadastro_veiculos_n1\\cadastro_venda_veiculos\\cadastro_venda_veiculos\\views\\veiculo\\form.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CB07473B-C190-4C7E-8754-3D7C8D454B5C}|Cadastro_Venda_Veiculos\\Cadastro_Venda_Veiculos.csproj|solutionrelative:cadastro_venda_veiculos\\views\\veiculo\\form.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB07473B-C190-4C7E-8754-3D7C8D454B5C}|Cadastro_Venda_Veiculos\\Cadastro_Venda_Veiculos.csproj|c:\\users\\evand\\documents\\github\\cadastro_veiculos_n1\\cadastro_venda_veiculos\\cadastro_venda_veiculos\\controllers\\pessoacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB07473B-C190-4C7E-8754-3D7C8D454B5C}|Cadastro_Venda_Veiculos\\Cadastro_Venda_Veiculos.csproj|solutionrelative:cadastro_venda_veiculos\\controllers\\pessoacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB07473B-C190-4C7E-8754-3D7C8D454B5C}|Cadastro_Venda_Veiculos\\Cadastro_Venda_Veiculos.csproj|c:\\users\\evand\\documents\\github\\cadastro_veiculos_n1\\cadastro_venda_veiculos\\cadastro_venda_veiculos\\views\\pessoa\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CB07473B-C190-4C7E-8754-3D7C8D454B5C}|Cadastro_Venda_Veiculos\\Cadastro_Venda_Veiculos.csproj|solutionrelative:cadastro_venda_veiculos\\views\\pessoa\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CB07473B-C190-4C7E-8754-3D7C8D454B5C}|Cadastro_Venda_Veiculos\\Cadastro_Venda_Veiculos.csproj|c:\\users\\evand\\documents\\github\\cadastro_veiculos_n1\\cadastro_venda_veiculos\\cadastro_venda_veiculos\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CB07473B-C190-4C7E-8754-3D7C8D454B5C}|Cadastro_Venda_Veiculos\\Cadastro_Venda_Veiculos.csproj|solutionrelative:cadastro_venda_veiculos\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{CB07473B-C190-4C7E-8754-3D7C8D454B5C}|Cadastro_Venda_Veiculos\\Cadastro_Venda_Veiculos.csproj|c:\\users\\evand\\documents\\github\\cadastro_veiculos_n1\\cadastro_venda_veiculos\\cadastro_venda_veiculos\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB07473B-C190-4C7E-8754-3D7C8D454B5C}|Cadastro_Venda_Veiculos\\Cadastro_Venda_Veiculos.csproj|solutionrelative:cadastro_venda_veiculos\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB07473B-C190-4C7E-8754-3D7C8D454B5C}|Cadastro_Venda_Veiculos\\Cadastro_Venda_Veiculos.csproj|c:\\users\\evand\\documents\\github\\cadastro_veiculos_n1\\cadastro_venda_veiculos\\cadastro_venda_veiculos\\dao\\helperdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB07473B-C190-4C7E-8754-3D7C8D454B5C}|Cadastro_Venda_Veiculos\\Cadastro_Venda_Veiculos.csproj|solutionrelative:cadastro_venda_veiculos\\dao\\helperdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB07473B-C190-4C7E-8754-3D7C8D454B5C}|Cadastro_Venda_Veiculos\\Cadastro_Venda_Veiculos.csproj|c:\\users\\evand\\documents\\github\\cadastro_veiculos_n1\\cadastro_venda_veiculos\\cadastro_venda_veiculos\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CB07473B-C190-4C7E-8754-3D7C8D454B5C}|Cadastro_Venda_Veiculos\\Cadastro_Venda_Veiculos.csproj|solutionrelative:cadastro_venda_veiculos\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB07473B-C190-4C7E-8754-3D7C8D454B5C}|Cadastro_Venda_Veiculos\\Cadastro_Venda_Veiculos.csproj|c:\\users\\evand\\documents\\github\\cadastro_veiculos_n1\\cadastro_venda_veiculos\\cadastro_venda_veiculos\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB07473B-C190-4C7E-8754-3D7C8D454B5C}|Cadastro_Venda_Veiculos\\Cadastro_Venda_Veiculos.csproj|solutionrelative:cadastro_venda_veiculos\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{CB07473B-C190-4C7E-8754-3D7C8D454B5C}|Cadastro_Venda_Veiculos\\Cadastro_Venda_Veiculos.csproj|c:\\users\\evand\\documents\\github\\cadastro_veiculos_n1\\cadastro_venda_veiculos\\cadastro_venda_veiculos\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CB07473B-C190-4C7E-8754-3D7C8D454B5C}|Cadastro_Venda_Veiculos\\Cadastro_Venda_Veiculos.csproj|solutionrelative:cadastro_venda_veiculos\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB07473B-C190-4C7E-8754-3D7C8D454B5C}|Cadastro_Venda_Veiculos\\Cadastro_Venda_Veiculos.csproj|c:\\users\\evand\\documents\\github\\cadastro_veiculos_n1\\cadastro_venda_veiculos\\cadastro_venda_veiculos\\cadastro_venda_veiculos.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{CB07473B-C190-4C7E-8754-3D7C8D454B5C}|Cadastro_Venda_Veiculos\\Cadastro_Venda_Veiculos.csproj|solutionrelative:cadastro_venda_veiculos\\cadastro_venda_veiculos.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB07473B-C190-4C7E-8754-3D7C8D454B5C}|Cadastro_Venda_Veiculos\\Cadastro_Venda_Veiculos.csproj|c:\\users\\evand\\documents\\github\\cadastro_veiculos_n1\\cadastro_venda_veiculos\\cadastro_venda_veiculos\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CB07473B-C190-4C7E-8754-3D7C8D454B5C}|Cadastro_Venda_Veiculos\\Cadastro_Venda_Veiculos.csproj|solutionrelative:cadastro_venda_veiculos\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB07473B-C190-4C7E-8754-3D7C8D454B5C}|Cadastro_Venda_Veiculos\\Cadastro_Venda_Veiculos.csproj|c:\\users\\evand\\documents\\github\\cadastro_veiculos_n1\\cadastro_venda_veiculos\\cadastro_venda_veiculos\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CB07473B-C190-4C7E-8754-3D7C8D454B5C}|Cadastro_Venda_Veiculos\\Cadastro_Venda_Veiculos.csproj|solutionrelative:cadastro_venda_veiculos\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\evand\\Documents\\GitHub\\Cadastro_Veiculos_N1\\Cadastro_Venda_Veiculos\\Cadastro_Venda_Veiculos\\obj\\Debug\\netcoreapp3.1\\Razor\\Views\\Shared\\Error.cshtml.g.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Cadastro_Venda_Veiculos\\obj\\Debug\\netcoreapp3.1\\Razor\\Views\\Shared\\Error.cshtml.g.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\evand\\Documents\\GitHub\\Cadastro_Veiculos_N1\\Cadastro_Venda_Veiculos\\Cadastro_Venda_Veiculos\\obj\\Debug\\netcoreapp3.1\\Razor\\Views\\Vendedor\\Form.cshtml.g.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Cadastro_Venda_Veiculos\\obj\\Debug\\netcoreapp3.1\\Razor\\Views\\Vendedor\\Form.cshtml.g.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB07473B-C190-4C7E-8754-3D7C8D454B5C}|Cadastro_Venda_Veiculos\\Cadastro_Venda_Veiculos.csproj|c:\\users\\evand\\documents\\github\\cadastro_veiculos_n1\\cadastro_venda_veiculos\\cadastro_venda_veiculos\\controllers\\cidadecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB07473B-C190-4C7E-8754-3D7C8D454B5C}|Cadastro_Venda_Veiculos\\Cadastro_Venda_Veiculos.csproj|solutionrelative:cadastro_venda_veiculos\\controllers\\cidadecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB07473B-C190-4C7E-8754-3D7C8D454B5C}|Cadastro_Venda_Veiculos\\Cadastro_Venda_Veiculos.csproj|c:\\users\\evand\\documents\\github\\cadastro_veiculos_n1\\cadastro_venda_veiculos\\cadastro_venda_veiculos\\models\\padraoviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB07473B-C190-4C7E-8754-3D7C8D454B5C}|Cadastro_Venda_Veiculos\\Cadastro_Venda_Veiculos.csproj|solutionrelative:cadastro_venda_veiculos\\models\\padraoviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB07473B-C190-4C7E-8754-3D7C8D454B5C}|Cadastro_Venda_Veiculos\\Cadastro_Venda_Veiculos.csproj|c:\\users\\evand\\documents\\github\\cadastro_veiculos_n1\\cadastro_venda_veiculos\\cadastro_venda_veiculos\\dao\\conexaobd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB07473B-C190-4C7E-8754-3D7C8D454B5C}|Cadastro_Venda_Veiculos\\Cadastro_Venda_Veiculos.csproj|solutionrelative:cadastro_venda_veiculos\\dao\\conexaobd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB07473B-C190-4C7E-8754-3D7C8D454B5C}|Cadastro_Venda_Veiculos\\Cadastro_Venda_Veiculos.csproj|c:\\users\\evand\\documents\\github\\cadastro_veiculos_n1\\cadastro_venda_veiculos\\cadastro_venda_veiculos\\dao\\cidadedao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB07473B-C190-4C7E-8754-3D7C8D454B5C}|Cadastro_Venda_Veiculos\\Cadastro_Venda_Veiculos.csproj|solutionrelative:cadastro_venda_veiculos\\dao\\cidadedao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\dotnet\\sdk\\8.0.202\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.PackageDependencyResolution.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CB07473B-C190-4C7E-8754-3D7C8D454B5C}|Cadastro_Venda_Veiculos\\Cadastro_Venda_Veiculos.csproj|c:\\users\\evand\\documents\\github\\cadastro_veiculos_n1\\cadastro_venda_veiculos\\cadastro_venda_veiculos\\cadastro_venda_veiculos.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{CB07473B-C190-4C7E-8754-3D7C8D454B5C}|Cadastro_Venda_Veiculos\\Cadastro_Venda_Veiculos.csproj|solutionrelative:cadastro_venda_veiculos\\cadastro_venda_veiculos.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CB07473B-C190-4C7E-8754-3D7C8D454B5C}|Cadastro_Venda_Veiculos\\Cadastro_Venda_Veiculos.csproj|c:\\users\\evand\\documents\\github\\cadastro_veiculos_n1\\cadastro_venda_veiculos\\cadastro_venda_veiculos\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CB07473B-C190-4C7E-8754-3D7C8D454B5C}|Cadastro_Venda_Veiculos\\Cadastro_Venda_Veiculos.csproj|solutionrelative:cadastro_venda_veiculos\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:2:0:{CB07473B-C190-4C7E-8754-3D7C8D454B5C}|Cadastro_Venda_Veiculos\\Cadastro_Venda_Veiculos.csproj|c:\\users\\evand\\documents\\github\\cadastro_veiculos_n1\\cadastro_venda_veiculos\\cadastro_venda_veiculos\\models\\pessoaviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:2:0:{CB07473B-C190-4C7E-8754-3D7C8D454B5C}|Cadastro_Venda_Veiculos\\Cadastro_Venda_Veiculos.csproj|solutionrelative:cadastro_venda_veiculos\\models\\pessoaviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -113,102 +129,244 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\evand\\Documents\\GitHub\\Cadastro_Veiculos_N1\\Cadastro_Venda_Veiculos\\Cadastro_Venda_Veiculos\\Views\\Veiculo\\Index.cshtml",
+              "RelativeDocumentMoniker": "Cadastro_Venda_Veiculos\\Views\\Veiculo\\Index.cshtml",
+              "ToolTip": "C:\\Users\\evand\\Documents\\GitHub\\Cadastro_Veiculos_N1\\Cadastro_Venda_Veiculos\\Cadastro_Venda_Veiculos\\Views\\Veiculo\\Index.cshtml",
+              "RelativeToolTip": "Cadastro_Venda_Veiculos\\Views\\Veiculo\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAABcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-21T02:22:56.696Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\evand\\Documents\\GitHub\\Cadastro_Veiculos_N1\\Cadastro_Venda_Veiculos\\Cadastro_Venda_Veiculos\\Views\\Pessoa\\Index.cshtml",
+              "RelativeDocumentMoniker": "Cadastro_Venda_Veiculos\\Views\\Pessoa\\Index.cshtml",
+              "ToolTip": "C:\\Users\\evand\\Documents\\GitHub\\Cadastro_Veiculos_N1\\Cadastro_Venda_Veiculos\\Cadastro_Venda_Veiculos\\Views\\Pessoa\\Index.cshtml",
+              "RelativeToolTip": "Cadastro_Venda_Veiculos\\Views\\Pessoa\\Index.cshtml",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAAYAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-21T02:03:24.048Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\evand\\Documents\\GitHub\\Cadastro_Veiculos_N1\\Cadastro_Venda_Veiculos\\Cadastro_Venda_Veiculos\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "Cadastro_Venda_Veiculos\\Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\evand\\Documents\\GitHub\\Cadastro_Veiculos_N1\\Cadastro_Venda_Veiculos\\Cadastro_Venda_Veiculos\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "Cadastro_Venda_Veiculos\\Views\\_ViewImports.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-21T02:20:47.787Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "CarroDAO.cs",
-              "DocumentMoniker": "C:\\Users\\evand\\Documents\\GitHub\\Cadastro_Veiculos_N1\\Cadastro_Venda_Veiculos\\Cadastro_Venda_Veiculos\\DAO\\CarroDAO.cs",
-              "RelativeDocumentMoniker": "Cadastro_Venda_Veiculos\\DAO\\CarroDAO.cs",
-              "ToolTip": "C:\\Users\\evand\\Documents\\GitHub\\Cadastro_Veiculos_N1\\Cadastro_Venda_Veiculos\\Cadastro_Venda_Veiculos\\DAO\\CarroDAO.cs",
-              "RelativeToolTip": "Cadastro_Venda_Veiculos\\DAO\\CarroDAO.cs",
-              "ViewState": "AQIAACMAAAAAAAAAAAAIwDcAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-15T23:44:11.98Z",
+              "Title": "Form.cshtml",
+              "DocumentMoniker": "C:\\Users\\evand\\Documents\\GitHub\\Cadastro_Veiculos_N1\\Cadastro_Venda_Veiculos\\Cadastro_Venda_Veiculos\\Views\\Pessoa\\Form.cshtml",
+              "RelativeDocumentMoniker": "Cadastro_Venda_Veiculos\\Views\\Pessoa\\Form.cshtml",
+              "ToolTip": "C:\\Users\\evand\\Documents\\GitHub\\Cadastro_Veiculos_N1\\Cadastro_Venda_Veiculos\\Cadastro_Venda_Veiculos\\Views\\Pessoa\\Form.cshtml",
+              "RelativeToolTip": "Cadastro_Venda_Veiculos\\Views\\Pessoa\\Form.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-21T02:03:27.015Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "Form.cshtml",
-              "DocumentMoniker": "C:\\Users\\evand\\Documents\\GitHub\\Cadastro_Veiculos_N1\\Cadastro_Venda_Veiculos\\Cadastro_Venda_Veiculos\\Views\\Carro\\Form.cshtml",
-              "RelativeDocumentMoniker": "Cadastro_Venda_Veiculos\\Views\\Carro\\Form.cshtml",
-              "ToolTip": "C:\\Users\\evand\\Documents\\GitHub\\Cadastro_Veiculos_N1\\Cadastro_Venda_Veiculos\\Cadastro_Venda_Veiculos\\Views\\Carro\\Form.cshtml",
-              "RelativeToolTip": "Cadastro_Venda_Veiculos\\Views\\Carro\\Form.cshtml",
-              "ViewState": "AQIAABMAAAAAAAAAAAAiwDEAAAAWAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-16T00:23:04.713Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "MotoDAO.cs",
-              "DocumentMoniker": "C:\\Users\\evand\\Documents\\GitHub\\Cadastro_Veiculos_N1\\Cadastro_Venda_Veiculos\\Cadastro_Venda_Veiculos\\DAO\\MotoDAO.cs",
-              "RelativeDocumentMoniker": "Cadastro_Venda_Veiculos\\DAO\\MotoDAO.cs",
-              "ToolTip": "C:\\Users\\evand\\Documents\\GitHub\\Cadastro_Veiculos_N1\\Cadastro_Venda_Veiculos\\Cadastro_Venda_Veiculos\\DAO\\MotoDAO.cs",
-              "RelativeToolTip": "Cadastro_Venda_Veiculos\\DAO\\MotoDAO.cs",
-              "ViewState": "AQIAAAUAAAAAAAAAAAAmwBUAAAA6AAAA",
+              "Title": "PadraoController.cs",
+              "DocumentMoniker": "C:\\Users\\evand\\Documents\\GitHub\\Cadastro_Veiculos_N1\\Cadastro_Venda_Veiculos\\Cadastro_Venda_Veiculos\\Controllers\\PadraoController.cs",
+              "RelativeDocumentMoniker": "Cadastro_Venda_Veiculos\\Controllers\\PadraoController.cs",
+              "ToolTip": "C:\\Users\\evand\\Documents\\GitHub\\Cadastro_Veiculos_N1\\Cadastro_Venda_Veiculos\\Cadastro_Venda_Veiculos\\Controllers\\PadraoController.cs",
+              "RelativeToolTip": "Cadastro_Venda_Veiculos\\Controllers\\PadraoController.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAwwGgAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-15T23:43:51.893Z",
+              "WhenOpened": "2024-05-21T02:04:26.143Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "CarroController.cs",
-              "DocumentMoniker": "C:\\Users\\evand\\Documents\\GitHub\\Cadastro_Veiculos_N1\\Cadastro_Venda_Veiculos\\Cadastro_Venda_Veiculos\\Controllers\\CarroController.cs",
-              "RelativeDocumentMoniker": "Cadastro_Venda_Veiculos\\Controllers\\CarroController.cs",
-              "ToolTip": "C:\\Users\\evand\\Documents\\GitHub\\Cadastro_Veiculos_N1\\Cadastro_Venda_Veiculos\\Cadastro_Venda_Veiculos\\Controllers\\CarroController.cs",
-              "RelativeToolTip": "Cadastro_Venda_Veiculos\\Controllers\\CarroController.cs",
-              "ViewState": "AQIAADIAAAAAAAAAAAAiwGsAAAA/AAAA",
+              "DocumentIndex": 6,
+              "Title": "PadraoDAO.cs",
+              "DocumentMoniker": "C:\\Users\\evand\\Documents\\GitHub\\Cadastro_Veiculos_N1\\Cadastro_Venda_Veiculos\\Cadastro_Venda_Veiculos\\DAO\\PadraoDAO.cs",
+              "RelativeDocumentMoniker": "Cadastro_Venda_Veiculos\\DAO\\PadraoDAO.cs",
+              "ToolTip": "C:\\Users\\evand\\Documents\\GitHub\\Cadastro_Veiculos_N1\\Cadastro_Venda_Veiculos\\Cadastro_Venda_Veiculos\\DAO\\PadraoDAO.cs",
+              "RelativeToolTip": "Cadastro_Venda_Veiculos\\DAO\\PadraoDAO.cs",
+              "ViewState": "AQIAACoAAAAAAAAAAAAkwCUAAAAvAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-16T00:13:08.143Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\evand\\Documents\\GitHub\\Cadastro_Veiculos_N1\\Cadastro_Venda_Veiculos\\Cadastro_Venda_Veiculos\\Views\\Carro\\Index.cshtml",
-              "RelativeDocumentMoniker": "Cadastro_Venda_Veiculos\\Views\\Carro\\Index.cshtml",
-              "ToolTip": "C:\\Users\\evand\\Documents\\GitHub\\Cadastro_Veiculos_N1\\Cadastro_Venda_Veiculos\\Cadastro_Venda_Veiculos\\Views\\Carro\\Index.cshtml",
-              "RelativeToolTip": "Cadastro_Venda_Veiculos\\Views\\Carro\\Index.cshtml",
-              "ViewState": "AQIAABIAAAAAAAAAAAAAABcAAAARAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-15T23:47:22.784Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "VendedorDAO.cs",
-              "DocumentMoniker": "C:\\Users\\evand\\Documents\\GitHub\\Cadastro_Veiculos_N1\\Cadastro_Venda_Veiculos\\Cadastro_Venda_Veiculos\\DAO\\VendedorDAO.cs",
-              "RelativeDocumentMoniker": "Cadastro_Venda_Veiculos\\DAO\\VendedorDAO.cs",
-              "ToolTip": "C:\\Users\\evand\\Documents\\GitHub\\Cadastro_Veiculos_N1\\Cadastro_Venda_Veiculos\\Cadastro_Venda_Veiculos\\DAO\\VendedorDAO.cs",
-              "RelativeToolTip": "Cadastro_Venda_Veiculos\\DAO\\VendedorDAO.cs",
-              "ViewState": "AQIAADMAAAAAAAAAAAAtwEcAAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-28T22:50:34.016Z",
+              "WhenOpened": "2024-05-21T02:05:07.712Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "VendedorController.cs",
-              "DocumentMoniker": "C:\\Users\\evand\\Documents\\GitHub\\Cadastro_Veiculos_N1\\Cadastro_Venda_Veiculos\\Cadastro_Venda_Veiculos\\Controllers\\VendedorController.cs",
-              "RelativeDocumentMoniker": "Cadastro_Venda_Veiculos\\Controllers\\VendedorController.cs",
-              "ToolTip": "C:\\Users\\evand\\Documents\\GitHub\\Cadastro_Veiculos_N1\\Cadastro_Venda_Veiculos\\Cadastro_Venda_Veiculos\\Controllers\\VendedorController.cs",
-              "RelativeToolTip": "Cadastro_Venda_Veiculos\\Controllers\\VendedorController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAMAAAA",
+              "Title": "PessoaViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\evand\\Documents\\GitHub\\Cadastro_Veiculos_N1\\Cadastro_Venda_Veiculos\\Cadastro_Venda_Veiculos\\Models\\PessoaViewModel.cs",
+              "RelativeDocumentMoniker": "Cadastro_Venda_Veiculos\\Models\\PessoaViewModel.cs",
+              "ToolTip": "C:\\Users\\evand\\Documents\\GitHub\\Cadastro_Veiculos_N1\\Cadastro_Venda_Veiculos\\Cadastro_Venda_Veiculos\\Models\\PessoaViewModel.cs",
+              "RelativeToolTip": "Cadastro_Venda_Veiculos\\Models\\PessoaViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-05T21:25:11.674Z",
+              "WhenOpened": "2024-05-21T01:57:00.401Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "VeiculoDAO.cs",
+              "DocumentMoniker": "C:\\Users\\evand\\Documents\\GitHub\\Cadastro_Veiculos_N1\\Cadastro_Venda_Veiculos\\Cadastro_Venda_Veiculos\\DAO\\VeiculoDAO.cs",
+              "RelativeDocumentMoniker": "Cadastro_Venda_Veiculos\\DAO\\VeiculoDAO.cs",
+              "ToolTip": "C:\\Users\\evand\\Documents\\GitHub\\Cadastro_Veiculos_N1\\Cadastro_Venda_Veiculos\\Cadastro_Venda_Veiculos\\DAO\\VeiculoDAO.cs",
+              "RelativeToolTip": "Cadastro_Venda_Veiculos\\DAO\\VeiculoDAO.cs",
+              "ViewState": "AQIAABcAAAAAAAAAAAAUwCkAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T01:56:46.681Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PessoaDAO.cs",
+              "DocumentMoniker": "C:\\Users\\evand\\Documents\\GitHub\\Cadastro_Veiculos_N1\\Cadastro_Venda_Veiculos\\Cadastro_Venda_Veiculos\\DAO\\PessoaDAO.cs",
+              "RelativeDocumentMoniker": "Cadastro_Venda_Veiculos\\DAO\\PessoaDAO.cs",
+              "ToolTip": "C:\\Users\\evand\\Documents\\GitHub\\Cadastro_Veiculos_N1\\Cadastro_Venda_Veiculos\\Cadastro_Venda_Veiculos\\DAO\\PessoaDAO.cs",
+              "RelativeToolTip": "Cadastro_Venda_Veiculos\\DAO\\PessoaDAO.cs",
+              "ViewState": "AQIAACMAAAAAAAAAAAAAwEgAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T01:57:21.96Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "VeiculoViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\evand\\Documents\\GitHub\\Cadastro_Veiculos_N1\\Cadastro_Venda_Veiculos\\Cadastro_Venda_Veiculos\\Models\\VeiculoViewModel.cs",
+              "RelativeDocumentMoniker": "Cadastro_Venda_Veiculos\\Models\\VeiculoViewModel.cs",
+              "ToolTip": "C:\\Users\\evand\\Documents\\GitHub\\Cadastro_Veiculos_N1\\Cadastro_Venda_Veiculos\\Cadastro_Venda_Veiculos\\Models\\VeiculoViewModel.cs",
+              "RelativeToolTip": "Cadastro_Venda_Veiculos\\Models\\VeiculoViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-15T23:44:24.216Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "VeiculoController.cs",
+              "DocumentMoniker": "C:\\Users\\evand\\Documents\\GitHub\\Cadastro_Veiculos_N1\\Cadastro_Venda_Veiculos\\Cadastro_Venda_Veiculos\\Controllers\\VeiculoController.cs",
+              "RelativeDocumentMoniker": "Cadastro_Venda_Veiculos\\Controllers\\VeiculoController.cs",
+              "ToolTip": "C:\\Users\\evand\\Documents\\GitHub\\Cadastro_Veiculos_N1\\Cadastro_Venda_Veiculos\\Cadastro_Venda_Veiculos\\Controllers\\VeiculoController.cs",
+              "RelativeToolTip": "Cadastro_Venda_Veiculos\\Controllers\\VeiculoController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAABBAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T02:04:05.871Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "PessoaController.cs",
+              "DocumentMoniker": "C:\\Users\\evand\\Documents\\GitHub\\Cadastro_Veiculos_N1\\Cadastro_Venda_Veiculos\\Cadastro_Venda_Veiculos\\Controllers\\PessoaController.cs",
+              "RelativeDocumentMoniker": "Cadastro_Venda_Veiculos\\Controllers\\PessoaController.cs",
+              "ToolTip": "C:\\Users\\evand\\Documents\\GitHub\\Cadastro_Veiculos_N1\\Cadastro_Venda_Veiculos\\Cadastro_Venda_Veiculos\\Controllers\\PessoaController.cs",
+              "RelativeToolTip": "Cadastro_Venda_Veiculos\\Controllers\\PessoaController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAABEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T02:02:18.875Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Form.cshtml",
+              "DocumentMoniker": "C:\\Users\\evand\\Documents\\GitHub\\Cadastro_Veiculos_N1\\Cadastro_Venda_Veiculos\\Cadastro_Venda_Veiculos\\Views\\Veiculo\\Form.cshtml",
+              "RelativeDocumentMoniker": "Cadastro_Venda_Veiculos\\Views\\Veiculo\\Form.cshtml",
+              "ToolTip": "C:\\Users\\evand\\Documents\\GitHub\\Cadastro_Veiculos_N1\\Cadastro_Venda_Veiculos\\Cadastro_Venda_Veiculos\\Views\\Veiculo\\Form.cshtml",
+              "RelativeToolTip": "Cadastro_Venda_Veiculos\\Views\\Veiculo\\Form.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-21T02:22:41.727Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 12,
+              "Title": "Startup.cs",
+              "DocumentMoniker": "C:\\Users\\evand\\Documents\\GitHub\\Cadastro_Veiculos_N1\\Cadastro_Venda_Veiculos\\Cadastro_Venda_Veiculos\\Startup.cs",
+              "RelativeDocumentMoniker": "Cadastro_Venda_Veiculos\\Startup.cs",
+              "ToolTip": "C:\\Users\\evand\\Documents\\GitHub\\Cadastro_Veiculos_N1\\Cadastro_Venda_Veiculos\\Cadastro_Venda_Veiculos\\Startup.cs",
+              "RelativeToolTip": "Cadastro_Venda_Veiculos\\Startup.cs",
+              "ViewState": "AQIAABwAAAAAAAAAAAAqwDkAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-16T00:10:50.415Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\evand\\Documents\\GitHub\\Cadastro_Veiculos_N1\\Cadastro_Venda_Veiculos\\Cadastro_Venda_Veiculos\\Program.cs",
+              "RelativeDocumentMoniker": "Cadastro_Venda_Veiculos\\Program.cs",
+              "ToolTip": "C:\\Users\\evand\\Documents\\GitHub\\Cadastro_Veiculos_N1\\Cadastro_Venda_Veiculos\\Cadastro_Venda_Veiculos\\Program.cs",
+              "RelativeToolTip": "Cadastro_Venda_Veiculos\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-28T22:39:56.663Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "HelperDAO.cs",
+              "DocumentMoniker": "C:\\Users\\evand\\Documents\\GitHub\\Cadastro_Veiculos_N1\\Cadastro_Venda_Veiculos\\Cadastro_Venda_Veiculos\\DAO\\HelperDAO.cs",
+              "RelativeDocumentMoniker": "Cadastro_Venda_Veiculos\\DAO\\HelperDAO.cs",
+              "ToolTip": "C:\\Users\\evand\\Documents\\GitHub\\Cadastro_Veiculos_N1\\Cadastro_Venda_Veiculos\\Cadastro_Venda_Veiculos\\DAO\\HelperDAO.cs",
+              "RelativeToolTip": "Cadastro_Venda_Veiculos\\DAO\\HelperDAO.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAgwCUAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-28T22:44:33.458Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\evand\\Documents\\GitHub\\Cadastro_Veiculos_N1\\Cadastro_Venda_Veiculos\\Cadastro_Venda_Veiculos\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "Cadastro_Venda_Veiculos\\Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\evand\\Documents\\GitHub\\Cadastro_Veiculos_N1\\Cadastro_Venda_Veiculos\\Cadastro_Venda_Veiculos\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "Cadastro_Venda_Veiculos\\Views\\_ViewStart.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-21T02:23:43.455Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Cadastro_Venda_Veiculos",
+              "DocumentMoniker": "C:\\Users\\evand\\Documents\\GitHub\\Cadastro_Veiculos_N1\\Cadastro_Venda_Veiculos\\Cadastro_Venda_Veiculos\\Cadastro_Venda_Veiculos.csproj",
+              "RelativeDocumentMoniker": "Cadastro_Venda_Veiculos\\Cadastro_Venda_Veiculos.csproj",
+              "ToolTip": "C:\\Users\\evand\\Documents\\GitHub\\Cadastro_Veiculos_N1\\Cadastro_Venda_Veiculos\\Cadastro_Venda_Veiculos\\Cadastro_Venda_Veiculos.csproj",
+              "RelativeToolTip": "Cadastro_Venda_Veiculos\\Cadastro_Venda_Veiculos.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-05-21T02:23:45.596Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\evand\\Documents\\GitHub\\Cadastro_Veiculos_N1\\Cadastro_Venda_Veiculos\\Cadastro_Venda_Veiculos\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "Cadastro_Venda_Veiculos\\Controllers\\HomeController.cs",
@@ -221,97 +379,106 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\evand\\Documents\\GitHub\\Cadastro_Veiculos_N1\\Cadastro_Venda_Veiculos\\Cadastro_Venda_Veiculos\\Views\\Vendedor\\Index.cshtml",
-              "RelativeDocumentMoniker": "Cadastro_Venda_Veiculos\\Views\\Vendedor\\Index.cshtml",
-              "ToolTip": "C:\\Users\\evand\\Documents\\GitHub\\Cadastro_Veiculos_N1\\Cadastro_Venda_Veiculos\\Cadastro_Venda_Veiculos\\Views\\Vendedor\\Index.cshtml",
-              "RelativeToolTip": "Cadastro_Venda_Veiculos\\Views\\Vendedor\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAARAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-16T00:23:44.603Z",
+              "DocumentIndex": 17,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\evand\\Documents\\GitHub\\Cadastro_Veiculos_N1\\Cadastro_Venda_Veiculos\\Cadastro_Venda_Veiculos\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "Cadastro_Venda_Veiculos\\Models\\ErrorViewModel.cs",
+              "ToolTip": "C:\\Users\\evand\\Documents\\GitHub\\Cadastro_Veiculos_N1\\Cadastro_Venda_Veiculos\\Cadastro_Venda_Veiculos\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "Cadastro_Venda_Veiculos\\Models\\ErrorViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-28T23:09:23.651Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 20,
+              "Title": "Error.cshtml",
+              "DocumentMoniker": "C:\\Users\\evand\\Documents\\GitHub\\Cadastro_Veiculos_N1\\Cadastro_Venda_Veiculos\\Cadastro_Venda_Veiculos\\Views\\Shared\\Error.cshtml",
+              "RelativeDocumentMoniker": "Cadastro_Venda_Veiculos\\Views\\Shared\\Error.cshtml",
+              "ToolTip": "C:\\Users\\evand\\Documents\\GitHub\\Cadastro_Veiculos_N1\\Cadastro_Venda_Veiculos\\Cadastro_Venda_Veiculos\\Views\\Shared\\Error.cshtml",
+              "RelativeToolTip": "Cadastro_Venda_Veiculos\\Views\\Shared\\Error.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAA6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-21T02:23:19.778Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Error.cshtml.g.cs",
+              "DocumentMoniker": "C:\\Users\\evand\\Documents\\GitHub\\Cadastro_Veiculos_N1\\Cadastro_Venda_Veiculos\\Cadastro_Venda_Veiculos\\obj\\Debug\\netcoreapp3.1\\Razor\\Views\\Shared\\Error.cshtml.g.cs",
+              "RelativeDocumentMoniker": "Cadastro_Venda_Veiculos\\obj\\Debug\\netcoreapp3.1\\Razor\\Views\\Shared\\Error.cshtml.g.cs",
+              "ToolTip": "C:\\Users\\evand\\Documents\\GitHub\\Cadastro_Veiculos_N1\\Cadastro_Venda_Veiculos\\Cadastro_Venda_Veiculos\\obj\\Debug\\netcoreapp3.1\\Razor\\Views\\Shared\\Error.cshtml.g.cs",
+              "RelativeToolTip": "Cadastro_Venda_Veiculos\\obj\\Debug\\netcoreapp3.1\\Razor\\Views\\Shared\\Error.cshtml.g.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAB8AAABXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T02:13:51.487Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "PadraoViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\evand\\Documents\\GitHub\\Cadastro_Veiculos_N1\\Cadastro_Venda_Veiculos\\Cadastro_Venda_Veiculos\\Models\\PadraoViewModel.cs",
+              "RelativeDocumentMoniker": "Cadastro_Venda_Veiculos\\Models\\PadraoViewModel.cs",
+              "ToolTip": "C:\\Users\\evand\\Documents\\GitHub\\Cadastro_Veiculos_N1\\Cadastro_Venda_Veiculos\\Cadastro_Venda_Veiculos\\Models\\PadraoViewModel.cs",
+              "RelativeToolTip": "Cadastro_Venda_Veiculos\\Models\\PadraoViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T01:57:13.91Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Form.cshtml.g.cs",
+              "DocumentMoniker": "C:\\Users\\evand\\Documents\\GitHub\\Cadastro_Veiculos_N1\\Cadastro_Venda_Veiculos\\Cadastro_Venda_Veiculos\\obj\\Debug\\netcoreapp3.1\\Razor\\Views\\Vendedor\\Form.cshtml.g.cs",
+              "RelativeDocumentMoniker": "Cadastro_Venda_Veiculos\\obj\\Debug\\netcoreapp3.1\\Razor\\Views\\Vendedor\\Form.cshtml.g.cs",
+              "ToolTip": "C:\\Users\\evand\\Documents\\GitHub\\Cadastro_Veiculos_N1\\Cadastro_Venda_Veiculos\\Cadastro_Venda_Veiculos\\obj\\Debug\\netcoreapp3.1\\Razor\\Views\\Vendedor\\Form.cshtml.g.cs",
+              "RelativeToolTip": "Cadastro_Venda_Veiculos\\obj\\Debug\\netcoreapp3.1\\Razor\\Views\\Vendedor\\Form.cshtml.g.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAASwB8AAABYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T02:14:14.573Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "CidadeController.cs",
+              "DocumentMoniker": "C:\\Users\\evand\\Documents\\GitHub\\Cadastro_Veiculos_N1\\Cadastro_Venda_Veiculos\\Cadastro_Venda_Veiculos\\Controllers\\CidadeController.cs",
+              "RelativeDocumentMoniker": "Cadastro_Venda_Veiculos\\Controllers\\CidadeController.cs",
+              "ToolTip": "C:\\Users\\evand\\Documents\\GitHub\\Cadastro_Veiculos_N1\\Cadastro_Venda_Veiculos\\Cadastro_Venda_Veiculos\\Controllers\\CidadeController.cs",
+              "RelativeToolTip": "Cadastro_Venda_Veiculos\\Controllers\\CidadeController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T02:13:28.305Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "CidadeDAO.cs",
+              "DocumentMoniker": "C:\\Users\\evand\\Documents\\GitHub\\Cadastro_Veiculos_N1\\Cadastro_Venda_Veiculos\\Cadastro_Venda_Veiculos\\DAO\\CidadeDAO.cs",
+              "RelativeDocumentMoniker": "Cadastro_Venda_Veiculos\\DAO\\CidadeDAO.cs",
+              "ToolTip": "C:\\Users\\evand\\Documents\\GitHub\\Cadastro_Veiculos_N1\\Cadastro_Venda_Veiculos\\Cadastro_Venda_Veiculos\\DAO\\CidadeDAO.cs",
+              "RelativeToolTip": "Cadastro_Venda_Veiculos\\DAO\\CidadeDAO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T01:53:43.419Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
               "Title": "ConexaoBD.cs",
               "DocumentMoniker": "C:\\Users\\evand\\Documents\\GitHub\\Cadastro_Veiculos_N1\\Cadastro_Venda_Veiculos\\Cadastro_Venda_Veiculos\\DAO\\ConexaoBD.cs",
               "RelativeDocumentMoniker": "Cadastro_Venda_Veiculos\\DAO\\ConexaoBD.cs",
               "ToolTip": "C:\\Users\\evand\\Documents\\GitHub\\Cadastro_Veiculos_N1\\Cadastro_Venda_Veiculos\\Cadastro_Venda_Veiculos\\DAO\\ConexaoBD.cs",
               "RelativeToolTip": "Cadastro_Venda_Veiculos\\DAO\\ConexaoBD.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAIAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-28T22:48:16.153Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-28T22:48:16.153Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Form.cshtml",
-              "DocumentMoniker": "C:\\Users\\evand\\Documents\\GitHub\\Cadastro_Veiculos_N1\\Cadastro_Venda_Veiculos\\Cadastro_Venda_Veiculos\\Views\\Vendedor\\Form.cshtml",
-              "RelativeDocumentMoniker": "Cadastro_Venda_Veiculos\\Views\\Vendedor\\Form.cshtml",
-              "ToolTip": "C:\\Users\\evand\\Documents\\GitHub\\Cadastro_Veiculos_N1\\Cadastro_Venda_Veiculos\\Cadastro_Venda_Veiculos\\Views\\Vendedor\\Form.cshtml",
-              "RelativeToolTip": "Cadastro_Venda_Veiculos\\Views\\Vendedor\\Form.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAARAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-16T00:23:25.557Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "ClienteDAO.cs",
-              "DocumentMoniker": "C:\\Users\\evand\\Documents\\GitHub\\Cadastro_Veiculos_N1\\Cadastro_Venda_Veiculos\\Cadastro_Venda_Veiculos\\DAO\\ClienteDAO.cs",
-              "RelativeDocumentMoniker": "Cadastro_Venda_Veiculos\\DAO\\ClienteDAO.cs",
-              "ToolTip": "C:\\Users\\evand\\Documents\\GitHub\\Cadastro_Veiculos_N1\\Cadastro_Venda_Veiculos\\Cadastro_Venda_Veiculos\\DAO\\ClienteDAO.cs",
-              "RelativeToolTip": "Cadastro_Venda_Veiculos\\DAO\\ClienteDAO.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAA7wCAAAAANAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-15T23:44:11.439Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "VendedorViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\evand\\Documents\\GitHub\\Cadastro_Veiculos_N1\\Cadastro_Venda_Veiculos\\Cadastro_Venda_Veiculos\\Models\\VendedorViewModel.cs",
-              "RelativeDocumentMoniker": "Cadastro_Venda_Veiculos\\Models\\VendedorViewModel.cs",
-              "ToolTip": "C:\\Users\\evand\\Documents\\GitHub\\Cadastro_Veiculos_N1\\Cadastro_Venda_Veiculos\\Cadastro_Venda_Veiculos\\Models\\VendedorViewModel.cs",
-              "RelativeToolTip": "Cadastro_Venda_Veiculos\\Models\\VendedorViewModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-28T22:51:34.334Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "HelperDAO.cs",
-              "DocumentMoniker": "C:\\Users\\evand\\Documents\\GitHub\\Cadastro_Veiculos_N1\\Cadastro_Venda_Veiculos\\Cadastro_Venda_Veiculos\\DAO\\HelperDAO.cs",
-              "RelativeDocumentMoniker": "Cadastro_Venda_Veiculos\\DAO\\HelperDAO.cs",
-              "ToolTip": "C:\\Users\\evand\\Documents\\GitHub\\Cadastro_Veiculos_N1\\Cadastro_Venda_Veiculos\\Cadastro_Venda_Veiculos\\DAO\\HelperDAO.cs",
-              "RelativeToolTip": "Cadastro_Venda_Veiculos\\DAO\\HelperDAO.cs",
-              "ViewState": "AQIAABAAAAAAAAAAAAAWwCMAAAATAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-28T22:44:33.458Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "VeiculoViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\evand\\Documents\\GitHub\\Cadastro_Veiculos_N1\\Cadastro_Venda_Veiculos\\Cadastro_Venda_Veiculos\\Models\\VeiculoViewModel.cs",
-              "RelativeDocumentMoniker": "Cadastro_Venda_Veiculos\\Models\\VeiculoViewModel.cs",
-              "ToolTip": "C:\\Users\\evand\\Documents\\GitHub\\Cadastro_Veiculos_N1\\Cadastro_Venda_Veiculos\\Cadastro_Venda_Veiculos\\Models\\VeiculoViewModel.cs",
-              "RelativeToolTip": "Cadastro_Venda_Veiculos\\Models\\VeiculoViewModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-15T23:44:24.216Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 29,
               "Title": "PessoaViewModel.cs",
               "DocumentMoniker": "C:\\Users\\evand\\Documents\\GitHub\\Cadastro_Veiculos_N1\\Cadastro_Venda_Veiculos\\Cadastro_Venda_Veiculos\\Models\\PessoaViewModel.cs",
               "RelativeDocumentMoniker": "Cadastro_Venda_Veiculos\\Models\\PessoaViewModel.cs",
@@ -323,19 +490,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "MotoViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\evand\\Documents\\GitHub\\Cadastro_Veiculos_N1\\Cadastro_Venda_Veiculos\\Cadastro_Venda_Veiculos\\Models\\MotoViewModel.cs",
-              "RelativeDocumentMoniker": "Cadastro_Venda_Veiculos\\Models\\MotoViewModel.cs",
-              "ToolTip": "C:\\Users\\evand\\Documents\\GitHub\\Cadastro_Veiculos_N1\\Cadastro_Venda_Veiculos\\Cadastro_Venda_Veiculos\\Models\\MotoViewModel.cs",
-              "RelativeToolTip": "Cadastro_Venda_Veiculos\\Models\\MotoViewModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAPAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-15T23:44:33.649Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 27,
               "Title": "Microsoft.PackageDependencyResolution.targets",
               "DocumentMoniker": "C:\\Program Files\\dotnet\\sdk\\8.0.202\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.PackageDependencyResolution.targets",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Program Files\\dotnet\\sdk\\8.0.202\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.PackageDependencyResolution.targets",
@@ -347,79 +502,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\evand\\Documents\\GitHub\\Cadastro_Veiculos_N1\\Cadastro_Venda_Veiculos\\Cadastro_Venda_Veiculos\\Views\\Moto\\Index.cshtml",
-              "RelativeDocumentMoniker": "Cadastro_Venda_Veiculos\\Views\\Moto\\Index.cshtml",
-              "ToolTip": "C:\\Users\\evand\\Documents\\GitHub\\Cadastro_Veiculos_N1\\Cadastro_Venda_Veiculos\\Cadastro_Venda_Veiculos\\Views\\Moto\\Index.cshtml",
-              "RelativeToolTip": "Cadastro_Venda_Veiculos\\Views\\Moto\\Index.cshtml",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAAADAAAAAcAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-16T00:45:59.954Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "Form.cshtml",
-              "DocumentMoniker": "C:\\Users\\evand\\Documents\\GitHub\\Cadastro_Veiculos_N1\\Cadastro_Venda_Veiculos\\Cadastro_Venda_Veiculos\\Views\\Moto\\Form.cshtml",
-              "RelativeDocumentMoniker": "Cadastro_Venda_Veiculos\\Views\\Moto\\Form.cshtml",
-              "ToolTip": "C:\\Users\\evand\\Documents\\GitHub\\Cadastro_Veiculos_N1\\Cadastro_Venda_Veiculos\\Cadastro_Venda_Veiculos\\Views\\Moto\\Form.cshtml",
-              "RelativeToolTip": "Cadastro_Venda_Veiculos\\Views\\Moto\\Form.cshtml",
-              "ViewState": "AQIAACcAAAAAAAAAAAAAAD8AAAA8AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-16T00:47:33.439Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "ClienteViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\evand\\Documents\\GitHub\\Cadastro_Veiculos_N1\\Cadastro_Venda_Veiculos\\Cadastro_Venda_Veiculos\\Models\\ClienteViewModel.cs",
-              "RelativeDocumentMoniker": "Cadastro_Venda_Veiculos\\Models\\ClienteViewModel.cs",
-              "ToolTip": "C:\\Users\\evand\\Documents\\GitHub\\Cadastro_Veiculos_N1\\Cadastro_Venda_Veiculos\\Cadastro_Venda_Veiculos\\Models\\ClienteViewModel.cs",
-              "RelativeToolTip": "Cadastro_Venda_Veiculos\\Models\\ClienteViewModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAANAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-15T23:45:20.91Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "CarroViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\evand\\Documents\\GitHub\\Cadastro_Veiculos_N1\\Cadastro_Venda_Veiculos\\Cadastro_Venda_Veiculos\\Models\\CarroViewModel.cs",
-              "RelativeDocumentMoniker": "Cadastro_Venda_Veiculos\\Models\\CarroViewModel.cs",
-              "ToolTip": "C:\\Users\\evand\\Documents\\GitHub\\Cadastro_Veiculos_N1\\Cadastro_Venda_Veiculos\\Cadastro_Venda_Veiculos\\Models\\CarroViewModel.cs",
-              "RelativeToolTip": "Cadastro_Venda_Veiculos\\Models\\CarroViewModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAPAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-15T23:45:04.125Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "Startup.cs",
-              "DocumentMoniker": "C:\\Users\\evand\\Documents\\GitHub\\Cadastro_Veiculos_N1\\Cadastro_Venda_Veiculos\\Cadastro_Venda_Veiculos\\Startup.cs",
-              "RelativeDocumentMoniker": "Cadastro_Venda_Veiculos\\Startup.cs",
-              "ToolTip": "C:\\Users\\evand\\Documents\\GitHub\\Cadastro_Veiculos_N1\\Cadastro_Venda_Veiculos\\Cadastro_Venda_Veiculos\\Startup.cs",
-              "RelativeToolTip": "Cadastro_Venda_Veiculos\\Startup.cs",
-              "ViewState": "AQIAAB8AAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-16T00:10:50.415Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "ErrorViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\evand\\Documents\\GitHub\\Cadastro_Veiculos_N1\\Cadastro_Venda_Veiculos\\Cadastro_Venda_Veiculos\\Models\\ErrorViewModel.cs",
-              "RelativeDocumentMoniker": "Cadastro_Venda_Veiculos\\Models\\ErrorViewModel.cs",
-              "ToolTip": "C:\\Users\\evand\\Documents\\GitHub\\Cadastro_Veiculos_N1\\Cadastro_Venda_Veiculos\\Cadastro_Venda_Veiculos\\Models\\ErrorViewModel.cs",
-              "RelativeToolTip": "Cadastro_Venda_Veiculos\\Models\\ErrorViewModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-28T23:09:23.651Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 28,
               "Title": "Cadastro_Venda_Veiculos.csproj",
               "DocumentMoniker": "C:\\Users\\evand\\Documents\\GitHub\\Cadastro_Veiculos_N1\\Cadastro_Venda_Veiculos\\Cadastro_Venda_Veiculos\\Cadastro_Venda_Veiculos.csproj",
               "RelativeDocumentMoniker": "Cadastro_Venda_Veiculos\\Cadastro_Venda_Veiculos.csproj",
@@ -428,18 +511,6 @@
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
               "WhenOpened": "2024-04-28T22:40:07.496Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\evand\\Documents\\GitHub\\Cadastro_Veiculos_N1\\Cadastro_Venda_Veiculos\\Cadastro_Venda_Veiculos\\Program.cs",
-              "RelativeDocumentMoniker": "Cadastro_Venda_Veiculos\\Program.cs",
-              "ToolTip": "C:\\Users\\evand\\Documents\\GitHub\\Cadastro_Veiculos_N1\\Cadastro_Venda_Veiculos\\Cadastro_Venda_Veiculos\\Program.cs",
-              "RelativeToolTip": "Cadastro_Venda_Veiculos\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-28T22:39:56.663Z"
             }
           ]
         }

@@ -1,0 +1,37 @@
+﻿@model List<Cadastro_Venda_Veiculos.Models.PessoaViewModel>
+
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<h2>Listagem de Pessoas</h2>
+<table class="table table-responsive">
+    <tr>
+        <th>Ações</th>
+        <th>ID</th>
+        <th>Nome</th>
+        <th>Telefone</th>
+        <th>Tipo</th>
+    </tr>
+    @foreach (var pessoa in Model)
+    {
+        <tr>
+            <td>
+                <a href="/pessoa/Edit?id=@pessoa.Id">Editar</a> |
+                <a href="javascript:apagarPessoa(@pessoa.Id)">Apagar</a>
+            </td>
+            <td>@pessoa.Id</td>
+            <td>@pessoa.Nome</td>
+            <td>@pessoa.Telefone</td>
+            <td>@pessoa.Tipo</td>
+        </tr>
+    }
+</table>
+
+<script>
+    function apagarPessoa(id) {
+        if (confirm('Confirma a exclusão do registro?'))
+            location.href = '/pessoa/Delete?id=' + id;
+    }
+</script>
+
+<a href="/pessoa/Create">Novo Registro</a>

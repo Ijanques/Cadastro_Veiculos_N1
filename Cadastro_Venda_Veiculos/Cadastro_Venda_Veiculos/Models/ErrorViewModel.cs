@@ -12,7 +12,10 @@ namespace Cadastro_Venda_Veiculos.Models
         {
         }
         public string Erro { get; set; }
+
+
         public string RequestId { get; set; }
+
         public bool ShowRequestId => !string.IsNullOrEmpty(RequestId);
     }
 }

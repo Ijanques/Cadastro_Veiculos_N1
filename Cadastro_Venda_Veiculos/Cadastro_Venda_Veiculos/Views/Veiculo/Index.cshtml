@@ -1,0 +1,42 @@
+﻿@model List<VeiculoViewModel>
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<h2>Listagem de Veículos</h2>
+
+<a href="/veiculo/create" class="btn btn-info">Novo Registro</a>
+<br />
+
+<table class="table table-responsive table-hover">
+    <tr>
+        <th>Ações</th>
+        <th>ID</th>
+        <th>Modelo</th>
+        <th>Ano</th>
+        <th>Preço</th>
+        <th>Marca</th>
+    </tr>
+    @foreach (var veiculo in Model)
+    {
+        <tr>
+            <td>
+                <a href="/veiculo/edit?id=@veiculo.Id" class="btn btn-info">Editar</a>
+                &nbsp;&nbsp;&nbsp;
+                <a href="javascript:confirma(@veiculo.Id)" class="btn btn-danger">Apagar</a>
+            </td>
+            <td>@veiculo.Id</td>
+            <td>@veiculo.Marca</td>
+            <td>@veiculo.Modelo</td>
+            <td>@veiculo.Ano</td>
+            <td>@veiculo.Preco.ToString("c")</td>
+        </tr>
+    }
+</table>
+
+<script>
+    function confirma(id) {
+        if (confirm('Deseja mesmo apagar?')) {
+            location.href = '/veiculo/delete?id=' + id;
+        }
+    }
+</script>

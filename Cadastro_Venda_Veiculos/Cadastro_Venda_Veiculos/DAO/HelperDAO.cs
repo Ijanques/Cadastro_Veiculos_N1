@@ -28,6 +28,7 @@ namespace Cadastro_Venda_Veiculos.DAO
                     if (parametros != null)
                         comando.Parameters.AddRange(parametros);
                     comando.ExecuteNonQuery();
+                    conexao.Close();
                 }
             }
         }
@@ -42,6 +43,7 @@ namespace Cadastro_Venda_Veiculos.DAO
                     adapter.SelectCommand.CommandType = CommandType.StoredProcedure;
                     DataTable tabela = new DataTable();
                     adapter.Fill(tabela);
+                    conexao.Close();
                     return tabela;
                 }
             }
