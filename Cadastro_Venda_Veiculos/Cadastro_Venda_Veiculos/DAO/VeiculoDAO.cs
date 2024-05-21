@@ -31,12 +31,12 @@ namespace Cadastro_Venda_Veiculos.DAO
         {
             VeiculoViewModel v = new VeiculoViewModel
             {
-                Id = registro["id"] != DBNull.Value ? Convert.ToInt32(registro["id"]) : 0,
-                Modelo = registro["modelo"] != DBNull.Value ? registro["modelo"].ToString() : string.Empty,
-                Ano = registro["ano"] != DBNull.Value ? Convert.ToInt32(registro["ano"]) : 0,
-                Placa = registro["placa"] != DBNull.Value ? registro["placa"].ToString() : string.Empty,
-                Preco = registro["preco"] != DBNull.Value ? Convert.ToDouble(registro["preco"]) : 0.0,
-                Marca = registro["marca"] != DBNull.Value ? registro["marca"].ToString() : string.Empty
+                Id = Convert.ToInt32(registro["id"]),
+                Modelo = registro["modelo"].ToString(),
+                Ano = Convert.ToInt32(registro["ano"]),
+                Placa = registro["placa"].ToString(),
+                Preco = (double)registro["preco"],
+                Marca = registro["Marca"].ToString()
             };
             if (registro["foto"] != DBNull.Value)
                 v.ImagemEmByte = registro["foto"] as byte[];

@@ -274,5 +274,5 @@ C:\Users\evand\Documents\GitHub\Cadastro_Veiculos_N1\Cadastro_Venda_Veiculos\Cad
 C:\Users\evand\Documents\GitHub\Cadastro_Veiculos_N1\Cadastro_Venda_Veiculos\Cadastro_Venda_Veiculos\obj\Debug\netcoreapp3.1\Razor\Views\Cidade\Index.cshtml.g.cs
 C:\Users\evand\Documents\GitHub\Cadastro_Veiculos_N1\Cadastro_Venda_Veiculos\Cadastro_Venda_Veiculos\obj\Debug\netcoreapp3.1\Razor\Views\Pessoa\Form.cshtml.g.cs
 C:\Users\evand\Documents\GitHub\Cadastro_Veiculos_N1\Cadastro_Venda_Veiculos\Cadastro_Venda_Veiculos\obj\Debug\netcoreapp3.1\Razor\Views\Pessoa\Index.cshtml.g.cs
-C:\Users\evand\Documents\GitHub\Cadastro_Veiculos_N1\Cadastro_Venda_Veiculos\Cadastro_Venda_Veiculos\obj\Debug\netcoreapp3.1\Razor\Views\Veiculos\Form.cshtml.g.cs
-C:\Users\evand\Documents\GitHub\Cadastro_Veiculos_N1\Cadastro_Venda_Veiculos\Cadastro_Venda_Veiculos\obj\Debug\netcoreapp3.1\Razor\Views\Veiculos\Index.cshtml.g.cs
+C:\Users\evand\Documents\GitHub\Cadastro_Veiculos_N1\Cadastro_Venda_Veiculos\Cadastro_Venda_Veiculos\obj\Debug\netcoreapp3.1\Razor\Views\Veiculo\Form.cshtml.g.cs
+C:\Users\evand\Documents\GitHub\Cadastro_Veiculos_N1\Cadastro_Venda_Veiculos\Cadastro_Venda_Veiculos\obj\Debug\netcoreapp3.1\Razor\Views\Veiculo\Index.cshtml.g.cs
