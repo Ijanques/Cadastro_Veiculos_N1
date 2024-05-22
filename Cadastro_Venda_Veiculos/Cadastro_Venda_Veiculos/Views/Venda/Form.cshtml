@@ -1,0 +1,105 @@
+﻿@model VendaViewModel
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<h2>Cadastro de Venda</h2>
+<form action="Save" method="post" class="col-md-6">
+
+    <input type="hidden" value="@ViewBag.Operacao" name="Operacao" />
+    <input type="hidden" value="@Model.Id" name="Id" />
+
+    <div class="form-group">
+        <label for="Veiculo" class="control-label">Veículo</label>
+        <input type="text" class="form-control" id="searchVeiculo" placeholder="Pesquisar veículo (modelo ou placa)" />
+        <select id="VeiculoId" name="VeiculoId" class="form-control">
+            <option value="">Selecione um veículo</option>
+        </select>
+        <span asp-validation-for="VeiculoId" class="text-danger"></span>
+    </div>
+    <br />
+
+    <div class="form-group">
+        <label for="Comprador" class="control-label">Comprador</label>
+        <input type="text" class="form-control" id="searchComprador" placeholder="Pesquisar comprador" />
+        <select id="CompradorId" name="CompradorId" class="form-control">
+            <option value="">Selecione um comprador</option>
+        </select>
+        <span asp-validation-for="CompradorId" class="text-danger"></span>
+    </div>
+    <br />
+
+    <div class="form-group">
+        <label for="Vendedor" class="control-label">Vendedor</label>
+        <input type="text" class="form-control" id="searchVendedor" placeholder="Pesquisar vendedor" />
+        <select id="VendedorId" name="VendedorId" class="form-control">
+            <option value="">Selecione um vendedor</option>
+        </select>
+        <span asp-validation-for="VendedorId" class="text-danger"></span>
+    </div>
+    <br />
+
+    <div class="form-group">
+        <label for="DataVenda" class="control-label">Data da Venda</label>
+        <input type="date" class="form-control" name="DataVenda" value="@Model.DataVenda.ToString("yyyy-MM-dd")" />
+        <span asp-validation-for="DataVenda" class="text-danger"></span>
+    </div>
+    <br />
+
+    <input type="submit" class="btn btn-info" value="Salvar dados" />
+    <br />
+</form>
+
+@section Scripts {
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('#searchVeiculo').on('input', function () {
+                var searchTerm = $(this).val();
+                if (searchTerm.length >= 3) {
+                    $.ajax({
+                        url: '/venda/SearchVeiculo',
+                        data: { searchTerm: searchTerm },
+                        success: function (data) {
+                            $('#VeiculoId').empty();
+                            data.forEach(function (veiculo) {
+                                $('#VeiculoId').append('<option value="' + veiculo.id + '">' + veiculo.modelo + ' - ' + veiculo.placa + '</option>');
+                            });
+                        }
+                    });
+                }
+            });
+
+            $('#searchComprador').on('input', function () {
+                var searchTerm = $(this).val();
+                if (searchTerm.length >= 3) {
+                    $.ajax({
+                        url: '/venda/SearchComprador',
+                        data: { searchTerm: searchTerm },
+                        success: function (data) {
+                            $('#CompradorId').empty();
+                            data.forEach(function (comprador) {
+                                $('#CompradorId').append('<option value="' + comprador.id + '">' + comprador.nome + '</option>');
+                            });
+                        }
+                    });
+                }
+            });
+
+            $('#searchVendedor').on('input', function () {
+                var searchTerm = $(this).val();
+                if (searchTerm.length >= 3) {
+                    $.ajax({
+                        url: '/venda/SearchVendedor',
+                        data: { searchTerm: searchTerm },
+                        success: function (data) {
+                            $('#VendedorId').empty();
+                            data.forEach(function (vendedor) {
+                                $('#VendedorId').append('<option value="' + vendedor.id + '">' + vendedor.nome + '</option>');
+                            });
+                        }
+                    });
+                }
+            });
+        });
+    </script>
+}

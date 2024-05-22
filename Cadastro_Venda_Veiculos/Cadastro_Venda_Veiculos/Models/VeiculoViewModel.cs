@@ -10,6 +10,7 @@ namespace Cadastro_Venda_Veiculos.Models
         public int Ano { get; set; }
         public string Placa { get; set; }
         public double Preco { get; set; }
+        public string Tipo { get; set; }
         public IFormFile Imagem { get; set; }
         /// <summary>
         /// Imagem em bytes pronta para ser salva

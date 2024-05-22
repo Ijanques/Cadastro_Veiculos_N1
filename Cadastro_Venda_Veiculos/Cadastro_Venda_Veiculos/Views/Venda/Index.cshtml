@@ -1,0 +1,49 @@
+﻿@model List<VendaViewModel>
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<h2>Listagem de Vendas</h2>
+
+<a href="/venda/create" class="btn btn-info">Nova Venda</a>
+
+<br />
+
+<table class="table table-responsive table-hover">
+    <thead>
+        <tr>
+            <th>Ações</th>
+            <th>ID</th>
+            <th>Veículo</th>
+            <th>Comprador</th>
+            <th>Vendedor</th>
+            <th>Data da Venda</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var venda in Model)
+        {
+            <tr>
+                <td>
+                    <a href="/venda/edit?id=@venda.Id" class="btn btn-info">Editar</a>
+                    &nbsp;&nbsp;&nbsp;
+                    <a href="javascript:confirma(@venda.Id)" class="btn btn-danger">Apagar</a>
+                </td>
+                <td>@venda.Id</td>
+                <td>@venda.VeiculoId</td>
+                <td>@venda.CompradorId</td>
+                <td>@venda.VendedorId</td>
+                <td>@venda.DataVenda.ToString("dd/MM/yyyy")</td>
+            </tr>
+        }
+    </tbody>
+</table>
+<br />
+<a href="/venda/PesquisaDetalhada" class="btn btn-info">Pesquisa Detalhada</a>
+
+<script>
+    function confirma(id) {
+        if (confirm('Deseja mesmo apagar?')) {
+            location.href = '/venda/delete?id=' + id;
+        }
+    }
+</script>

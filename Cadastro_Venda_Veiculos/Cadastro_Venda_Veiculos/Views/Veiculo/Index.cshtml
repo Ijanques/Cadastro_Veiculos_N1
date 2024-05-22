@@ -8,29 +8,49 @@
 <br />
 
 <table class="table table-responsive table-hover">
-    <tr>
-        <th>Ações</th>
-        <th>ID</th>
-        <th>Modelo</th>
-        <th>Ano</th>
-        <th>Preço</th>
-        <th>Marca</th>
-    </tr>
-    @foreach (var veiculo in Model)
-    {
+    <thead>
         <tr>
-            <td>
-                <a href="/veiculo/edit?id=@veiculo.Id" class="btn btn-info">Editar</a>
-                &nbsp;&nbsp;&nbsp;
-                <a href="javascript:confirma(@veiculo.Id)" class="btn btn-danger">Apagar</a>
-            </td>
-            <td>@veiculo.Id</td>
-            <td>@veiculo.Marca</td>
-            <td>@veiculo.Modelo</td>
-            <td>@veiculo.Ano</td>
-            <td>@veiculo.Preco.ToString("c")</td>
+            <th>Ações</th>
+            <th>ID</th>
+            <th>Marca</th>
+            <th>Modelo</th>
+            <th>Placa</th>
+            <th>Preço</th>
+            <th>Tipo</th>
+            <th>Foto</th>
+            <th>Ano</th>
         </tr>
-    }
+    </thead>
+    <tbody>
+        @foreach (var veiculo in Model)
+        {
+            <tr>
+                <td>
+                    <a href="/veiculo/edit?id=@veiculo.Id" class="btn btn-info">Editar</a>
+                    &nbsp;&nbsp;&nbsp;
+                    <a href="javascript:confirma(@veiculo.Id)" class="btn btn-danger">Apagar</a>
+                </td>
+                <td>@veiculo.Id</td>
+                <td>@veiculo.Marca</td>
+                <td>@veiculo.Modelo</td>
+                <td>@veiculo.Placa</td>
+                <td>@veiculo.Preco.ToString("c")</td>
+                <td>@veiculo.Tipo</td>
+                <td>
+                    @if (veiculo.ImagemEmByte != null && veiculo.ImagemEmByte.Length > 0)
+                    {
+                        <img src="data:image;base64,@Convert.ToBase64String(veiculo.ImagemEmByte)" alt="Foto do Veículo" width="100" />
+                    }
+                    else
+                    {
+
+                        <span>Sem imagem</span>
+                    }
+                </td>
+                <td>@veiculo.Ano</td>
+            </tr>
+        }
+    </tbody>
 </table>
 
 <script>

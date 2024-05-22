@@ -68,6 +68,22 @@ namespace Cadastro_Venda_Veiculos.DAO
                 lista.Add(MontaModel(registro));
             return lista;
         }
+        public List<PessoaViewModel> ListagemCompradores()
+        {
+            List<PessoaViewModel> lista = new List<PessoaViewModel>();
+            DataTable tabela = HelperDAO.ExecutaProcSelect("SpListacompradores", null);
+            foreach (DataRow registro in tabela.Rows)
+                lista.Add(MontaModel(registro));
+            return lista;
+        }
+        public List<PessoaViewModel> ListagemVendores()
+        {
+            List<PessoaViewModel> lista = new List<PessoaViewModel>();
+            DataTable tabela = HelperDAO.ExecutaProcSelect("SpListaVendedores", null);
+            foreach (DataRow registro in tabela.Rows)
+                lista.Add(MontaModel(registro));
+            return lista;
+        }
         public override int ProximoId()
         {
             var p = new SqlParameter[]

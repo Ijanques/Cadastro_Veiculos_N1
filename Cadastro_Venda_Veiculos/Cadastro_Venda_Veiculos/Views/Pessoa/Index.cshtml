@@ -4,34 +4,42 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 <h2>Listagem de Pessoas</h2>
-<table class="table table-responsive">
-    <tr>
-        <th>Ações</th>
-        <th>ID</th>
-        <th>Nome</th>
-        <th>Telefone</th>
-        <th>Tipo</th>
-    </tr>
-    @foreach (var pessoa in Model)
-    {
+
+<a href="/pessoa/Create" class="btn btn-info">Novo Registro</a>
+<br />
+
+<table class="table table-responsive table-hover">
+    <thead>
         <tr>
-            <td>
-                <a href="/pessoa/Edit?id=@pessoa.Id">Editar</a> |
-                <a href="javascript:apagarPessoa(@pessoa.Id)">Apagar</a>
-            </td>
-            <td>@pessoa.Id</td>
-            <td>@pessoa.Nome</td>
-            <td>@pessoa.Telefone</td>
-            <td>@pessoa.Tipo</td>
+            <th>Ações</th>
+            <th>ID</th>
+            <th>Nome</th>
+            <th>Telefone</th>
+            <th>Tipo</th>
         </tr>
-    }
+    </thead>
+    <tbody>
+        @foreach (var pessoa in Model)
+        {
+            <tr>
+                <td>
+                    <a href="/pessoa/Edit?id=@pessoa.Id" class="btn btn-info">Editar</a>
+                    &nbsp;&nbsp;&nbsp;
+                    <a href="javascript:confirma(@pessoa.Id)" class="btn btn-danger">Apagar</a>
+                </td>
+                <td>@pessoa.Id</td>
+                <td>@pessoa.Nome</td>
+                <td>@pessoa.Telefone</td>
+                <td>@pessoa.Tipo</td>
+            </tr>
+        }
+    </tbody>
 </table>
 
 <script>
-    function apagarPessoa(id) {
-        if (confirm('Confirma a exclusão do registro?'))
+    function confirma(id) {
+        if (confirm('Deseja mesmo apagar?')) {
             location.href = '/pessoa/Delete?id=' + id;
+        }
     }
 </script>
-
-<a href="/pessoa/Create">Novo Registro</a>

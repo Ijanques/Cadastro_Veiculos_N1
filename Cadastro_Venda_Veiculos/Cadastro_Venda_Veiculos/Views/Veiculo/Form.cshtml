@@ -3,43 +3,74 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 <h2>Cadastro de Veículo</h2>
-<form action="Save" method="post" class="col-md-6">
+<form asp-action="Save" method="post" enctype="multipart/form-data" class="col-md-6">
 
     <input type="hidden" value="@ViewBag.Operacao" name="Operacao" />
 
     <label for="Id" class="control-label">ID</label>
-
     @if (ViewBag.Operacao == "I")
     {
-        <input type="number" Name="Id" value="@Model.Id" class="form-control" />
+        <input type="number" asp-for="Id" class="form-control" />
     }
     else
     {
-        <input type="number" Name="Id" value="@Model.Id" readonly class="form-control" />
+        <input type="number" asp-for="Id" readonly class="form-control" />
     }
     <span asp-validation-for="Id" class="text-danger"></span>
 
     <br />
+    <label for="Marca" class="control-label">Marca</label>
+    <input type="text" asp-for="Marca" class="form-control" />
+    <span asp-validation-for="Marca" class="text-danger"></span>
+    <br />
+
     <label for="Modelo" class="control-label">Modelo do Veículo</label>
-    <input type="text" class="form-control" Name="Modelo" value="@Model.Modelo" />
+    <input type="text" asp-for="Modelo" class="form-control" />
     <span asp-validation-for="Modelo" class="text-danger"></span>
     <br />
 
+    <label for="Placa" class="control-label">Placa do Veiculo</label>
+    <input type="text" asp-for="Placa" class="form-control" />
+    <span asp-validation-for="Placa" class="text-danger"></span>
+    <br />
+
     <label for="Ano" class="control-label">Ano</label>
-    <input type="number" class="form-control" Name="Ano" value="@Model.Ano" />
+    <input type="number" asp-for="Ano" class="form-control" />
     <span asp-validation-for="Ano" class="text-danger"></span>
 
     <br />
     <label for="Preco" class="control-label">Preço</label>
-    <input type="text" class="form-control" Name="Preco" value="@Model.Preco" />
+    <input type="text" asp-for="Preco" class="form-control" />
     <span asp-validation-for="Preco" class="text-danger"></span>
 
     <br />
-    <label for="MarcaId" class="control-label">Marca</label>
-    <select asp-for="Marca" asp-items="@ViewBag.ListaMarcas" class="form-control"></select>
-    <span asp-validation-for="Marca" class="text-danger"></span>
+    <div class="form-group">
+        <label for="Tipo" class="control-label">Tipo</label>
+        <select asp-for="Tipo" class="form-control">
+            <option value="">Selecione um tipo</option>
+            <option value="Carro">Carro</option>
+            <option value="Moto">Moto</option>
+        </select>
+        <span asp-validation-for="Tipo" class="text-danger"></span>
+    </div>
+    <br />
+
+    <label for="Imagem" class="control-label">Foto</label>
+    <input type="file" asp-for="Imagem" class="form-control" onchange="exibirImagem()" />
+    <img id="imgPreview" src="data:image/jpeg;base64,@Model.ImagemEmBase64" class="img-responsive" width="100" />
+    <span asp-validation-for="Imagem" class="text-danger"></span>
     <br />
 
     <input type="submit" class="btn btn-info" value="Salvar dados" />
     <br />
 </form>
+
+<script>
+    function exibirImagem() {
+        var oFReader = new FileReader();
+        oFReader.readAsDataURL(document.getElementById("Imagem").files[0]);
+        oFReader.onload = function (oFREvent) {
+            document.getElementById("imgPreview").src = oFREvent.target.result;
+        };
+    }
+</script>

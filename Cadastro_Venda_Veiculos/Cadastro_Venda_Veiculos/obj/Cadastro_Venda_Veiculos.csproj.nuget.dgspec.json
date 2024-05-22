@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\evand\\Documents\\GitHub\\Cadastro_Veiculos_N1\\Cadastro_Venda_Veiculos\\Cadastro_Venda_Veiculos\\Cadastro_Venda_Veiculos.csproj": {}
+    "C:\\Users\\evand\\Desktop\\Cad\\Cadastro_Veiculos_N1-main (2)\\Cadastro_Veiculos_N1-main\\Cadastro_Venda_Veiculos\\Cadastro_Venda_Veiculos\\Cadastro_Venda_Veiculos.csproj": {}
   },
   "projects": {
-    "C:\\Users\\evand\\Documents\\GitHub\\Cadastro_Veiculos_N1\\Cadastro_Venda_Veiculos\\Cadastro_Venda_Veiculos\\Cadastro_Venda_Veiculos.csproj": {
+    "C:\\Users\\evand\\Desktop\\Cad\\Cadastro_Veiculos_N1-main (2)\\Cadastro_Veiculos_N1-main\\Cadastro_Venda_Veiculos\\Cadastro_Venda_Veiculos\\Cadastro_Venda_Veiculos.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\evand\\Documents\\GitHub\\Cadastro_Veiculos_N1\\Cadastro_Venda_Veiculos\\Cadastro_Venda_Veiculos\\Cadastro_Venda_Veiculos.csproj",
+        "projectUniqueName": "C:\\Users\\evand\\Desktop\\Cad\\Cadastro_Veiculos_N1-main (2)\\Cadastro_Veiculos_N1-main\\Cadastro_Venda_Veiculos\\Cadastro_Venda_Veiculos\\Cadastro_Venda_Veiculos.csproj",
         "projectName": "Cadastro_Venda_Veiculos",
-        "projectPath": "C:\\Users\\evand\\Documents\\GitHub\\Cadastro_Veiculos_N1\\Cadastro_Venda_Veiculos\\Cadastro_Venda_Veiculos\\Cadastro_Venda_Veiculos.csproj",
+        "projectPath": "C:\\Users\\evand\\Desktop\\Cad\\Cadastro_Veiculos_N1-main (2)\\Cadastro_Veiculos_N1-main\\Cadastro_Venda_Veiculos\\Cadastro_Venda_Veiculos\\Cadastro_Venda_Veiculos.csproj",
         "packagesPath": "C:\\Users\\evand\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\evand\\Documents\\GitHub\\Cadastro_Veiculos_N1\\Cadastro_Venda_Veiculos\\Cadastro_Venda_Veiculos\\obj\\",
+        "outputPath": "C:\\Users\\evand\\Desktop\\Cad\\Cadastro_Veiculos_N1-main (2)\\Cadastro_Veiculos_N1-main\\Cadastro_Venda_Veiculos\\Cadastro_Venda_Veiculos\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\evand\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "rqbv1WVnnDh92XkDET5Zk77yJyTOnNRLcy8+Ag5pin3CQrDfagUDpM1cwInFdCaHbzFSWCueabF8/u6hDWM6Rw==",
+  "dgSpecHash": "rdSM646pR9mXgWhLX3xWs0kLKTjad0bUW08tr/EOrpxGWo9ffX1L20R8HH3SnBrTc3lmDV7LCKejSZQPdV6YRg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\evand\\Documents\\GitHub\\Cadastro_Veiculos_N1\\Cadastro_Venda_Veiculos\\Cadastro_Venda_Veiculos\\Cadastro_Venda_Veiculos.csproj",
+  "projectFilePath": "C:\\Users\\evand\\Desktop\\Cad\\Cadastro_Veiculos_N1-main (2)\\Cadastro_Veiculos_N1-main\\Cadastro_Venda_Veiculos\\Cadastro_Venda_Veiculos\\Cadastro_Venda_Veiculos.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\evand\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\evand\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
